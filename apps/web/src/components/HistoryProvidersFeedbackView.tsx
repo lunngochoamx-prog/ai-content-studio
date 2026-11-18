@@ -16,7 +16,7 @@ import {
   Save,
   X,
 } from "lucide-react";
-import { apiFetch, fetchLocalOllamaModels } from "@/lib/api";
+import { apiFetch, downloadApiResource, fetchLocalOllamaModels } from "@/lib/api";
 
 /* ==================== 1. KHO LỊCH SỬ BÀI VIẾT ==================== */
 export function HistoryView({
@@ -537,13 +537,19 @@ export function FeedbackCommunityView({ onNotify }: { onNotify: (msg: string) =>
       <section className="panel">
         <div className="panel-header">
           <h2 className="panel-title">Bảng Ý Tưởng Cộng Đồng ({items.length})</h2>
-          <a
-            href="/api/feedback/export.tsv"
-            download="feedback-google-sheets.tsv"
+          <button
+            type="button"
+            onClick={() =>
+              downloadApiResource(
+                "/api/feedback/export.tsv",
+                "feedback-google-sheets.tsv",
+                "text/tab-separated-values;charset=utf-8"
+              )
+            }
             className="btn btn-ghost btn-sm"
           >
             <Download size={13} /> Xuất TSV (Google Sheets)
-          </a>
+          </button>
         </div>
         <div className="panel-body" style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           {items.map((fb) => (

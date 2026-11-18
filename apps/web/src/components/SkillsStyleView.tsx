@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Plus, Sparkles, Download, Trash2, Save, UserCheck } from "lucide-react";
-import { apiFetch } from "@/lib/api";
+import { apiFetch, downloadApiResource } from "@/lib/api";
 
 export function SkillsHubView({
   skills,
@@ -257,14 +257,20 @@ export function SkillsHubView({
                 </div>
               </div>
               <div style={{ display: "flex", gap: 4 }}>
-                <a
-                  href={`/api/skills/${sk.id}/export-md`}
-                  download={`${sk.code.toLowerCase()}.SKILL.md`}
+                <button
+                  type="button"
+                  onClick={() =>
+                    downloadApiResource(
+                      `/api/skills/${sk.id}/export-md`,
+                      `${sk.code.toLowerCase()}.SKILL.md`,
+                      "text/markdown;charset=utf-8"
+                    )
+                  }
                   className="btn btn-ghost btn-sm"
                   title="Tải file SKILL.md"
                 >
                   <Download size={13} />
-                </a>
+                </button>
                 {!sk.is_builtin && (
                   <button
                     type="button"

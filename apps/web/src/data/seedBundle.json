@@ -1,0 +1,1822 @@
+{
+  "checklist_65_rules": [
+    {
+      "stt": 1,
+      "group": "Căn bản",
+      "sub_group": "Không copy",
+      "detail": "Bài viết đạt tiêu chuẩn Unique >90% với bài viết ngoài website và >70% với bài viết trong cùng website",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 2,
+      "group": "Căn bản",
+      "sub_group": "Ngữ pháp",
+      "detail": "Đúng ngữ pháp, diễn đạt mạch lạc, thoát ý",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 3,
+      "group": "Căn bản",
+      "sub_group": "Chính tả",
+      "detail": "Không có lỗi chính tả",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 4,
+      "group": "Branding",
+      "sub_group": "Xưng hô",
+      "detail": "Cách xưng hô thống nhất với từng nhóm khách hàng mục tiêu",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 5,
+      "group": "Branding",
+      "sub_group": "Văn phong",
+      "detail": "- Văn phong đúng tinh thần thương hiệu/Brandvoice\n- Giọng điệu phù hợp với khách hàng mục tiêu\n- Duy trì sự nhận diện thương hiệu qua cách diễn đạt, từ ngữ và hình ảnh.",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 6,
+      "group": "Branding",
+      "sub_group": "Thông điệp truyền thông nhất quán",
+      "detail": "Thông điệp chung (DN): Thông điệp truyền thông nhất quán, xuyên suốt trong các bài SEO khi nhắc đến thương hiệu",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 7,
+      "group": "Branding",
+      "sub_group": "Thông điệp truyền thông nhất quán",
+      "detail": "Thông điệp cho từng nhóm SP/DV: Nhất quán trên tất cả các kênh truyền thông khi nhắc đến nhóm SP/DV của thương hiệu",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 8,
+      "group": "Branding",
+      "sub_group": "Thông điệp truyền thông nhất quán",
+      "detail": "Thông điệp cho từng sản phẩm: Nhất quán trên tất cả các kênh truyền thông khi nhắc đến sản phẩm của thương hiệu.",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 9,
+      "group": "Branding",
+      "sub_group": "CTA",
+      "detail": "Đảm bảo nguyên tắc 3S (Simple, Specific, Strong)",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 10,
+      "group": "Branding",
+      "sub_group": "CTA",
+      "detail": "1 bài có ít nhất 1 CTA",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 11,
+      "group": "Branding",
+      "sub_group": "CTA",
+      "detail": "Thiết kế mô hình CTA theo hành trình của người dùng.",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 12,
+      "group": "Branding",
+      "sub_group": "Quy định quảng cáo",
+      "detail": "Tuân thủ 6 quy định quảng cáo: https://seongon.com/blog/content/quy-dinh-luat-quang-cao-can-chu-y-khi-viet-content-seo.html",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 13,
+      "group": "Branding",
+      "sub_group": "Quy định quảng cáo",
+      "detail": "Không so sánh, xếp hạng doanh nghiệp khác nếu không có thống kê/công bố của bên thứ 3 uy tín",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 14,
+      "group": "Hình ảnh",
+      "sub_group": "Trải nghiệm người dùng",
+      "detail": "Ảnh nét, đảm bảo không bị vỡ/mờ",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 15,
+      "group": "Hình ảnh",
+      "sub_group": "Trải nghiệm người dùng",
+      "detail": "Bài viết 1000 chữ tối thiểu 3 hình (~300 - 400 chữ có 1 hình)",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 16,
+      "group": "Hình ảnh",
+      "sub_group": "Trải nghiệm người dùng",
+      "detail": "Hình ảnh liên quan đến nội dung bài viết, đoạn văn xung quanh",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 17,
+      "group": "Hình ảnh",
+      "sub_group": "Vị trí ảnh",
+      "detail": "Căn giữa",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 18,
+      "group": "Hình ảnh",
+      "sub_group": "Chú thích ảnh",
+      "detail": "- Có chú thích ảnh <70 ký tự dưới mỗi hình ảnh, mô tả rõ và dễ hiểu nội dung hình ảnh\n- Có chứa từ khóa chính/ từ khóa phụ/ từ khóa LSI\n- In nghiêng chú thích ảnh",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 19,
+      "group": "Hình ảnh",
+      "sub_group": "Định vị thương hiệu",
+      "detail": "Chèn Logo với những ảnh thuộc bản quyền của doanh nghiệp",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 20,
+      "group": "Hình ảnh",
+      "sub_group": "Định vị thương hiệu",
+      "detail": "Sử dụng ảnh có màu sắc theo tone màu thương hiệu",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 21,
+      "group": "Hình ảnh",
+      "sub_group": "Định vị thương hiệu",
+      "detail": "Nhân vật đúng tệp khách hàng mục tiêu của thương hiệu",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 22,
+      "group": "Hình ảnh",
+      "sub_group": "Định vị thương hiệu",
+      "detail": "Ưu tiên sử dụng hình ảnh, video nguyên bản (do chính tổ chức chụp/quay) thay vì ảnh stock để minh họa cho quy trình, sản phẩm hoặc kết quả.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 23,
+      "group": "Người dùng",
+      "sub_group": "Câu ngắn",
+      "detail": "Câu văn dài 20 - 30 từ (khoảng 1.5 dòng), đặt dấu câu ngắt nghỉ phù hợp",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 24,
+      "group": "Người dùng",
+      "sub_group": "Đoạn ngắn",
+      "detail": "Đoạn văn dài 60 - 80 từ (khoảng 3 - 4 dòng, tối đa 5 dòng)",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 25,
+      "group": "Người dùng",
+      "sub_group": "Sắp xếp thông tin",
+      "detail": "Sắp xếp thông tin theo mô hình kim tự tháp ngược và mô hình AIDA\nĐặt Content quan trọng lên đầu bài viết",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 26,
+      "group": "Người dùng",
+      "sub_group": "Câu dẫn",
+      "detail": "Có đoạn văn dẫn dắt ở sau các Heading 2, 3, 4",
+      "apply_seo": true,
+      "apply_aio": false
+    },
+    {
+      "stt": 27,
+      "group": "Người dùng",
+      "sub_group": "Tính cá nhân hoá",
+      "detail": "Nội dung phải phù hợp với đối tượng độc giả của bài viết, không viết chung chung",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 28,
+      "group": "Người dùng",
+      "sub_group": "Tính độc nhất",
+      "detail": "Đảm bảo bài viết có nội dung mới, độc đáo hơn so với top 10",
+      "apply_seo": true,
+      "apply_aio": false
+    },
+    {
+      "stt": 29,
+      "group": "UL - LI",
+      "sub_group": "Trình bày nội dung",
+      "detail": "Đa dạng cách trình bày nội dung: Sử dụng bullet, bảng biểu,...",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 30,
+      "group": "UL - LI",
+      "sub_group": "Định dạng văn bản",
+      "detail": "Sử dụng đa dạng định dạng văn bản: In đậm, in nghiêng, kẻ bảng,...",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 31,
+      "group": "UL - LI",
+      "sub_group": "Media",
+      "detail": "Đa dạng hình ảnh, video, inforgaphic,...",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 32,
+      "group": "UL - LI",
+      "sub_group": "Khái quát đầu đoạn",
+      "detail": "Khái quát câu đầu đoạn: Định hướng nội dung cho cả đoạn để người đọc nắm bắt ý nhanh nhất",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 33,
+      "group": "E-E-A-T",
+      "sub_group": "Experience (Trải nghiệm)",
+      "detail": "Cung cấp hướng dẫn thực tế, thông tin thực tế, sử dụng ảnh chụp minh họa cụ thể",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 34,
+      "group": "E-E-A-T",
+      "sub_group": "Expertise (Chuyên môn)",
+      "detail": "Đi sâu vào phân tích chi tiết, các khía cạnh của vấn đề, thể hiện kiến thức chuyên môn. Nội dung đưa ra cần có lập luận logic, thuyết phục hoặc có căn cứ (NCKH, Báo cáo,...) để chứng minh",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 35,
+      "group": "E-E-A-T",
+      "sub_group": "Expertise (Chuyên môn)",
+      "detail": "Công bố Case study & Dữ liệu nội bộ với số liệu thực tế, nêu rõ bối cảnh, thách thức và kết quả đạt được",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 36,
+      "group": "E-E-A-T",
+      "sub_group": "Authoritativeness (Thẩm quyền)",
+      "detail": "Thể hiện danh tiếng, sự nổi bật, giải thưởng/ thành tích được công nhận trong ngành của thương hiệu (nếu có)",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 37,
+      "group": "E-E-A-T",
+      "sub_group": "Authoritativeness (Thẩm quyền)",
+      "detail": "Tích hợp các trích dẫn, nhận xét, đánh giá trực tiếp từ khách hàng hoặc người dùng cuối đã sử dụng sản phẩm/dịch vụ.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 38,
+      "group": "E-E-A-T",
+      "sub_group": "Trustworthiness (Độ tin cậy)",
+      "detail": "Cung cấp nguồn trích dẫn uy tín cho các dữ liệu, nghiên cứu được nhắc đến trong bài",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 39,
+      "group": "E-E-A-T",
+      "sub_group": "Trustworthiness (Độ tin cậy)",
+      "detail": "Dẫn link đến các nghiên cứu, báo cáo, bài viết của các chuyên gia hoặc tổ chức đầu ngành và ghi rõ nguồn của các số liệu, thống kê theo format Harvard.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 40,
+      "group": "Technical SEO",
+      "sub_group": "Meta description",
+      "detail": "Trả lời được insight (mong muốn thầm kín)",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 41,
+      "group": "Technical SEO",
+      "sub_group": "Meta description",
+      "detail": "Tóm tắt được nội dung bài viết",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 42,
+      "group": "Technical SEO",
+      "sub_group": "Meta description",
+      "detail": "Có chứa từ khoá chính/từ khoá phụ",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 43,
+      "group": "Technical SEO",
+      "sub_group": "Meta description",
+      "detail": "Độ dài <165 ký tự",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 44,
+      "group": "Technical SEO",
+      "sub_group": "Mật độ từ khoá",
+      "detail": "Từ khoá chính xuất hiện 1 - 3% trong bài",
+      "apply_seo": true,
+      "apply_aio": false
+    },
+    {
+      "stt": 45,
+      "group": "Technical SEO",
+      "sub_group": "Mật độ từ khoá",
+      "detail": "Từ khoá phụ xuất hiện ít nhất 1 lần trong bài",
+      "apply_seo": true,
+      "apply_aio": false
+    },
+    {
+      "stt": 46,
+      "group": "Technical SEO",
+      "sub_group": "Heading 1",
+      "detail": "Dưới 63 ký tự",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 47,
+      "group": "Technical SEO",
+      "sub_group": "Heading 1",
+      "detail": "Chứa từ khoá chính hoặc từ khoá phụ, ưu tiên đứng ở đầu tiêu đề",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 48,
+      "group": "Technical SEO",
+      "sub_group": "Heading 1",
+      "detail": "Nội dung tiêu đề thể hiện được ý định tìm kiếm/insight của người dùng",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 49,
+      "group": "Technical SEO",
+      "sub_group": "Heading 2, 3, 4",
+      "detail": "Có ít nhất 1 H2 có chứa từ khoá chính",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 50,
+      "group": "Technical SEO",
+      "sub_group": "Heading 2, 3, 4",
+      "detail": "Ưu tiên từ khoá chính/từ khoá phụ/LSI xuất hiện ở H3, H4",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 51,
+      "group": "Technical SEO",
+      "sub_group": "Mở bài\n(Sapo)",
+      "detail": "- Độ dài khoảng 3-5 dòng\n- Chứa từ khóa chính\n- Sơ lược được nội dung bài viết, giải quyết vấn đề gì cho người dùng",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 52,
+      "group": "Technical SEO",
+      "sub_group": "Kết bài",
+      "detail": "- Độ dài khoảng 3-5 dòng\n- Chứa từ khóa chính\n- Chèn thông tin để người dùng liên hệ",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 53,
+      "group": "Technical SEO",
+      "sub_group": "Internal Link",
+      "detail": "Có ít nhất 1 link về các bài viết liên quan cùng chủ đề",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 54,
+      "group": "Technical SEO",
+      "sub_group": "Internal Link",
+      "detail": "Link về các sản phẩm có nhắc tới trong bài",
+      "apply_seo": true,
+      "apply_aio": true
+    },
+    {
+      "stt": 55,
+      "group": "AI - Ranking",
+      "sub_group": "Đoạn văn",
+      "detail": "Mỗi đoạn văn cần trả lời hoàn chỉnh được một truy vấn duy nhất của người dùng.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 56,
+      "group": "AI - Readability",
+      "sub_group": "AI - Readability",
+      "detail": "Tránh viết câu mơ hồ, chung chung, không giải quyết được vấn đề cụ thể, không đóng góp thêm luận điểm cho chủ đề chính của đoạn.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 57,
+      "group": "AI - Readability",
+      "sub_group": "AI - Readability",
+      "detail": "Câu chủ đề của đoạn cần viết theo dạng bộ ba ngữ nghĩa (subject-predicate-object).",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 58,
+      "group": "AI - Readability",
+      "sub_group": "Bài viết",
+      "detail": "Bài viết cần chứa các câu viết theo dạng bộ ba ngữ nghĩa một cách tự nhiên.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 59,
+      "group": "AI - Ranking",
+      "sub_group": "AI - Ranking",
+      "detail": "Ưu tiên thêm FAQs vào bài viết (phụ thuộc vào truy vấn, Google Suggest, People Also Ask...)",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 60,
+      "group": "AI - Ranking",
+      "sub_group": "Cosine Similarity",
+      "detail": "Mỗi đoạn văn cần có tối thiểu 3 từ vựng cùng trường từ vựng với từ khoá chính của bài viết.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 61,
+      "group": "AI - Readability",
+      "sub_group": "TL-DR",
+      "detail": "Sử dụng tóm tắt bài viết trên đầu bài/Cuối bài với cấu trúc dạng bullet.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 62,
+      "group": "AI - Readability",
+      "sub_group": "Heading 2, 3, 4",
+      "detail": "Nên đặt heading 2, heading 3 là câu hỏi nếu có thể.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 63,
+      "group": "Information Gain",
+      "sub_group": "Fresh",
+      "detail": "Bài viết buộc phải có tối thiểu 3 nội dung mới liên quan chặt chẽ với chủ đề.",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 64,
+      "group": "Information Gain",
+      "sub_group": "Fresh",
+      "detail": "Có ít nhất 3 nội dung trong bài cần được trình bày theo cách MỚI - Khác biệt và tốt hơn top 10:\n- Dễ đọc hơn \n- Có góc nhìn mới hơn\n- Lập luận thuyết phục hơn (Có số liệu, dẫn nguồn)\n- Câu văn tối ưu cho AI đọc hơn\n- ...",
+      "apply_seo": false,
+      "apply_aio": true
+    },
+    {
+      "stt": 65,
+      "group": "Information Gain",
+      "sub_group": "Fresh",
+      "detail": "Cập nhật nội dung mới ít nhất 3 tháng 1 lần, tuỳ thuộc vào từ khoá.",
+      "apply_seo": false,
+      "apply_aio": true
+    }
+  ],
+  "platforms": {
+    "facebook": {
+      "label": "Facebook (Post / Fanpage / Group / Ads)",
+      "short_label": "Facebook",
+      "max_title_chars": 90,
+      "fold_chars": 135,
+      "rules_summary": [
+        "3 dòng đầu tiên (<135 ký tự trước chữ 'Xem thêm') phải là Hook chạm đúng nỗi đau, sự tò mò hoặc con số thực tế.",
+        "Mỗi đoạn chỉ 1–3 câu ngắn, chừa khoảng trắng dễ lướt trên điện thoại.",
+        "Tuyệt đối tránh từ ngữ vi phạm chính sách quảng cáo Facebook: 'cam kết 100%', 'trị dứt điểm', 'kiếm tiền dễ dàng', công kích ngoại hình cá nhân.",
+        "Kết bài có ít nhất 1 CTA theo nguyên tắc 3S (Simple - Specific - Strong) điều hướng bình luận hoặc nhắn tin."
+      ],
+      "image_presets": [
+        {
+          "id": "fb_square_900",
+          "label": "Facebook Bài đơn chuẩn (900x900)",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": "fb_link_1200_600",
+          "label": "Facebook Ngang / Chia sẻ Link (1200x600)",
+          "width": 1200,
+          "height": 600
+        },
+        {
+          "id": "fb_ads_1200_628",
+          "label": "Facebook Ads Tiêu chuẩn (1200x628)",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "id": "fb_hd_1080",
+          "label": "Facebook Carousel HD (1080x1080)",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "id": "fb_story_1080_1920",
+          "label": "Facebook Story / Reels (1080x1920)",
+          "width": 1080,
+          "height": 1920
+        }
+      ]
+    },
+    "seo_google": {
+      "label": "SEO Google (49 tiêu chí chuẩn On-page & E-E-A-T)",
+      "short_label": "SEO Google",
+      "max_title_chars": 62,
+      "meta_max_chars": 164,
+      "rules_summary": [
+        "Heading 1 dưới 63 ký tự, chứa từ khóa chính đứng đầu tiêu đề và phản ánh đúng Search Intent.",
+        "Meta Description dưới 165 ký tự, tóm tắt bài viết, chạm insight thầm kín và chứa từ khóa chính/phụ.",
+        "Mở bài (Sapo) 3–5 dòng chứa từ khóa chính theo mô hình Kim tự tháp ngược + AIDA; Kết bài 3–5 dòng chứa từ khóa chính và thông tin liên hệ.",
+        "Mật độ từ khóa chính đạt 1–3%, từ khóa phụ >=1 lần; có câu dẫn sau các thẻ H2, H3; câu dài 20–30 từ, đoạn dài 60–80 từ.",
+        "Tối thiểu 3 ảnh/1000 từ căn giữa kèm chú thích in nghiêng <70 ký tự chứa từ khóa; có Internal Link bài liên quan & Link sản phẩm."
+      ],
+      "image_presets": [
+        {
+          "id": "seo_featured_1200_675",
+          "label": "Chuẩn Google Discover & Featured (1200x675)",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "id": "seo_body_1200_800",
+          "label": "Ảnh minh họa chuẩn SEO 3:2 (1200x800)",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "id": "seo_compact_800_500",
+          "label": "Ảnh thân bài nhẹ tốc độ cao (800x500)",
+          "width": 800,
+          "height": 500
+        },
+        {
+          "id": "seo_infographic_800_1400",
+          "label": "Infographic tóm tắt kiến thức (800x1400)",
+          "width": 800,
+          "height": 1400
+        }
+      ]
+    },
+    "geo_google": {
+      "label": "GEO Google / AI Overviews (61 tiêu chí AIO & Citation)",
+      "short_label": "GEO Google",
+      "max_title_chars": 62,
+      "meta_max_chars": 164,
+      "rules_summary": [
+        "Có khối TL;DR tóm tắt dạng bullet ngay đầu bài để công cụ AI trích xuất nhanh.",
+        "Ưu tiên đặt Heading 2, Heading 3 dưới dạng câu hỏi sát truy vấn người dùng.",
+        "Mỗi đoạn văn (60–80 từ) trả lời trọn vẹn 1 truy vấn duy nhất; câu chủ đề viết theo Bộ ba ngữ nghĩa (Chủ thể – Vị ngữ – Tân ngữ).",
+        "Cosine Similarity: Mỗi đoạn chứa tối thiểu 3 từ vựng thuộc cùng trường từ vựng với từ khóa chính.",
+        "Tích hợp Case study nội bộ, đánh giá thực tế của khách hàng, nguồn trích dẫn định dạng Harvard (Tác giả, Năm), mục FAQs và >=3 điểm Information Gain mới."
+      ],
+      "image_presets": [
+        {
+          "id": "geo_featured_1200_675",
+          "label": "GEO Google AI Overviews 16:9 (1200x675)",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "id": "geo_chart_1200_800",
+          "label": "Biểu đồ & Số liệu thực chứng (1200x800)",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "id": "geo_square_1000",
+          "label": "Sơ đồ quy trình vuông (1000x1000)",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    "tiktok": {
+      "label": "TikTok (Kịch bản Video ngắn & Caption TikTok SEO)",
+      "short_label": "TikTok",
+      "max_title_chars": 75,
+      "rules_summary": [
+        "3 giây đầu tiên bắt buộc có Visual Hook + Text Hook trên màn hình + Câu mở đầu đánh thẳng vào vấn đề.",
+        "Chia bảng phân cảnh rõ ràng: Thời lượng (giây) | Góc máy & Chữ trên màn hình | Lời thoại tự nhiên như văn nói.",
+        "Đổi nhịp hình ảnh/thông tin mỗi 3–5 giây giữ tỷ lệ xem hết (Completion Rate); tránh từ cấm TikTok Shop (trị bệnh, cam kết tuyệt đối, từ nhạy cảm).",
+        "Kèm Caption tối ưu thanh tìm kiếm TikTok SEO và bộ 5–6 Hashtag phân tầng (Ngành + Ngách + Xu hướng)."
+      ],
+      "image_presets": [
+        {
+          "id": "tt_cover_1080_1920",
+          "label": "TikTok Thumbnail / Khung dọc 9:16 (1080x1920)",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "id": "tt_photo_1080_1440",
+          "label": "TikTok Photo Carousel 3:4 (1080x1440)",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
+    },
+    "website": {
+      "label": "Website / Landing Page Chuyển Đổi",
+      "short_label": "Website",
+      "max_title_chars": 62,
+      "meta_max_chars": 164,
+      "rules_summary": [
+        "Cấu trúc trang đích thuyết phục: Hero Headline rõ giá trị -> Vấn đề khách hàng -> Giải pháp & Lợi ích cốt lõi -> Bằng chứng xã hội & Số liệu -> Bảng so sánh -> FAQs -> CTA 3S.",
+        "Giữ câu văn súc tích 20–30 từ, đa dạng bảng biểu, danh sách bullet và thông tin liên hệ minh bạch."
+      ],
+      "image_presets": [
+        {
+          "id": "web_hero_1440_810",
+          "label": "Website Hero Banner 16:9 (1440x810)",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "id": "web_section_1200_675",
+          "label": "Ảnh Section tính năng (1200x675)",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "id": "web_square_900",
+          "label": "Ảnh Sản phẩm / Dịch vụ (900x900)",
+          "width": 900,
+          "height": 900
+        }
+      ]
+    }
+  },
+  "seed_skills": [
+    {
+      "code": "AIDA",
+      "name": "AIDA — Thu hút · Thích thú · Khao khát · Hành động",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "seo_google",
+        "website",
+        "tiktok"
+      ],
+      "description": "Công thức kinh điển dẫn dắt tâm lý người đọc từ gây chú ý tức thì đến quyết định chuyển đổi.",
+      "outline_steps": [
+        {
+          "step": "Attention (Gây chú ý)",
+          "description": "Mở đầu bằng con số thực tế, câu hỏi xoáy hoặc nhận định ngược đám đông."
+        },
+        {
+          "step": "Interest (Tạo thích thú)",
+          "description": "Phân tích bối cảnh và lý giải nguyên nhân cốt lõi khiến độc giả quan tâm."
+        },
+        {
+          "step": "Desire (Khơi gợi khao khát)",
+          "description": "Đưa ra giải pháp, lợi ích thực tế kèm dẫn chứng số liệu và trải nghiệm khách hàng."
+        },
+        {
+          "step": "Action (Kêu gọi hành động)",
+          "description": "CTA chuẩn 3S (Simple, Specific, Strong) kèm hướng dẫn bước tiếp theo rõ ràng."
+        }
+      ],
+      "system_instructions": "Triển khai mạch bài chặt chẽ theo 4 bước A-I-D-A, ưu tiên đặt thông tin giá trị nhất lên đầu và lồng ghép dẫn chứng thực tế."
+    },
+    {
+      "code": "PAS",
+      "name": "PAS — Nỗi đau · Xát muối · Giải pháp",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "tiktok",
+        "website",
+        "seo_google"
+      ],
+      "description": "Chạm trực diện vấn đề nhức nhối của khách hàng, làm rõ hệ quả nếu trì hoãn và trao giải pháp khả thi.",
+      "outline_steps": [
+        {
+          "step": "Problem (Gọi tên vấn đề)",
+          "description": "Mô tả chính xác tình huống khó khăn khách hàng đang gặp mỗi ngày."
+        },
+        {
+          "step": "Agitate (Khuếch đại hệ quả)",
+          "description": "Chỉ ra chi phí ẩn về thời gian, tiền bạc hoặc cơ hội nếu giải quyết sai cách."
+        },
+        {
+          "step": "Solution (Đưa giải pháp)",
+          "description": "Trình bày phương pháp giải quyết cụ thể, minh bạch bằng chứng và lời kêu gọi 3S."
+        }
+      ],
+      "system_instructions": "Đi thẳng vào nỗi đau thực tế của tệp độc giả mục tiêu, tránh dọa dẫm quá đà vi phạm Luật Quảng cáo, tập trung vào giải pháp có căn cứ."
+    },
+    {
+      "code": "PASTOR",
+      "name": "PASTOR — Công thức bán hàng bằng sự thấu cảm chuyên sâu",
+      "category": "conversion",
+      "target_platforms": [
+        "website",
+        "facebook",
+        "seo_google"
+      ],
+      "description": "Mở rộng từ PAS với câu chuyện chuyển hóa và bằng chứng xã hội thuyết phục cho sản phẩm giá trị cao.",
+      "outline_steps": [
+        {
+          "step": "Problem & Amplify",
+          "description": "Xác định vấn đề và hệ lụy thực tế."
+        },
+        {
+          "step": "Story & Solution",
+          "description": "Kể câu chuyện vượt qua thách thức thực tế nhờ phương pháp mới."
+        },
+        {
+          "step": "Transformation & Testimony",
+          "description": "Nêu kết quả đo lường được và nhận xét từ người dùng thật."
+        },
+        {
+          "step": "Offer & Response",
+          "description": "Đề xuất gói giải pháp cụ thể và hướng dẫn liên hệ ngay."
+        }
+      ],
+      "system_instructions": "Viết giọng văn thấu cảm, chuyên gia đồng hành, có số liệu trước-sau minh bạch."
+    },
+    {
+      "code": "BAB",
+      "name": "BAB — Before · After · Bridge (Trước · Sau · Cầu nối)",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "tiktok",
+        "website"
+      ],
+      "description": "Tạo sự tương phản sắc nét giữa thực trạng bế tắc hiện tại và bức tranh kết quả mong ước, sau đó bắc cầu bằng giải pháp.",
+      "outline_steps": [
+        {
+          "step": "Before (Thực trạng cũ)",
+          "description": "Bức tranh vất vả, tốn kém khi làm theo cách cũ."
+        },
+        {
+          "step": "After (Kết quả mới)",
+          "description": "Trạng thái tối ưu, tiết kiệm và hiệu quả rõ rệt sau khi thay đổi."
+        },
+        {
+          "step": "Bridge (Cầu nối)",
+          "description": "Quy trình / sản phẩm giúp đi từ Before sang After từng bước cụ thể."
+        }
+      ],
+      "system_instructions": "Đối chiếu cụ thể bằng con số thực tế thay vì tính từ cảm tính."
+    },
+    {
+      "code": "FAB",
+      "name": "FAB — Tính năng · Ưu thế · Lợi ích sát sườn",
+      "category": "conversion",
+      "target_platforms": [
+        "website",
+        "seo_google",
+        "facebook"
+      ],
+      "description": "Chuyển hóa thông số kỹ thuật khô khan thành lợi ích thiết thực cho người mua.",
+      "outline_steps": [
+        {
+          "step": "Features (Đặc điểm)",
+          "description": "Thành phần, công nghệ hoặc quy trình cốt lõi."
+        },
+        {
+          "step": "Advantages (Ưu điểm vượt trội)",
+          "description": "Cơ chế vận hành giúp giải quyết vấn đề nhanh/bền vững hơn."
+        },
+        {
+          "step": "Benefits (Lợi ích nhận được)",
+          "description": "Giá trị thực tế mà khách hàng cảm nhận trong công việc và cuộc sống."
+        }
+      ],
+      "system_instructions": "Luôn nối mỗi tính năng với một lợi ích cụ thể cho người đọc cuối."
+    },
+    {
+      "code": "4P",
+      "name": "4P — Picture · Promise · Prove · Push",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "website"
+      ],
+      "description": "Vẽ bối cảnh gần gũi, đưa lời hứa có cơ sở, chứng minh bằng dữ liệu thật và thúc đẩy hành động.",
+      "outline_steps": [
+        {
+          "step": "Picture",
+          "description": "Khắc họa tình huống sống động đúng tệp độc giả."
+        },
+        {
+          "step": "Promise",
+          "description": "Cam kết giá trị hợp lý, tuân thủ quy định quảng cáo."
+        },
+        {
+          "step": "Prove",
+          "description": "Dẫn chứng số liệu nghiên cứu, case study và phản hồi khách hàng."
+        },
+        {
+          "step": "Push",
+          "description": "CTA rõ ràng, cụ thể."
+        }
+      ],
+      "system_instructions": "Phần Prove bắt buộc dựa trên số liệu, báo cáo hoặc case study có nguồn."
+    },
+    {
+      "code": "4C",
+      "name": "4C — Clear · Concise · Compelling · Credible",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "website",
+        "seo_google",
+        "geo_google"
+      ],
+      "description": "Viết rõ ràng, cô đọng, cuốn hút và giàu độ tin cậy cho nhóm khách hàng B2B và tri thức.",
+      "outline_steps": [
+        {
+          "step": "Clear & Concise",
+          "description": "Thông điệp trực diện, câu 20–30 từ không rườm rà."
+        },
+        {
+          "step": "Compelling",
+          "description": "Chạm đúng lợi ích cốt lõi của người đọc."
+        },
+        {
+          "step": "Credible",
+          "description": "Đính kèm nguồn nghiên cứu và số liệu xác thực."
+        }
+      ],
+      "system_instructions": "Loại bỏ hoàn toàn tính từ sáo rỗng, ưu tiên số liệu và lập luận chặt chẽ."
+    },
+    {
+      "code": "4U",
+      "name": "4U — Useful · Urgent · Unique · Ultra-specific",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "tiktok",
+        "seo_google"
+      ],
+      "description": "Tối ưu tiêu đề và nội dung giàu giá trị thực tiễn, cụ thể đến từng con số và tạo tính cấp thiết.",
+      "outline_steps": [
+        {
+          "step": "Useful & Ultra-specific",
+          "description": "Hướng dẫn thực tiễn kèm định lượng cụ thể."
+        },
+        {
+          "step": "Unique",
+          "description": "Góc nhìn mới vượt các bài viết đại trà."
+        },
+        {
+          "step": "Urgent",
+          "description": "Lý do hợp lý để bắt đầu áp dụng ngay hôm nay."
+        }
+      ],
+      "system_instructions": "Mọi luận điểm đều phải cụ thể hóa bằng bước làm hoặc chỉ số đo lường."
+    },
+    {
+      "code": "QUEST",
+      "name": "QUEST — Qualify · Understand · Educate · Stimulate · Transition",
+      "category": "conversion",
+      "target_platforms": [
+        "seo_google",
+        "website",
+        "facebook"
+      ],
+      "description": "Lọc đúng chân dung độc giả ngay câu mở đầu, giáo dục thị trường bằng kiến thức sâu rồi chuyển đổi mượt mà.",
+      "outline_steps": [
+        {
+          "step": "Qualify & Understand",
+          "description": "Gọi đúng đối tượng độc giả và thể hiện sự thấu hiểu."
+        },
+        {
+          "step": "Educate & Stimulate",
+          "description": "Phân tích chuyên môn sâu sắc mở ra giải pháp tối ưu."
+        },
+        {
+          "step": "Transition",
+          "description": "Chuyển tiếp tự nhiên sang sản phẩm/dịch vụ và CTA."
+        }
+      ],
+      "system_instructions": "Giữ tỷ lệ 80% giá trị chuyên môn và 20% điều hướng thương hiệu tinh tế."
+    },
+    {
+      "code": "ACCA",
+      "name": "ACCA — Nhận thức · Thấu hiểu · Tin tưởng · Hành động",
+      "category": "conversion",
+      "target_platforms": [
+        "seo_google",
+        "geo_google",
+        "website"
+      ],
+      "description": "Phù hợp cho ngành Y tế, Tài chính, Bất động sản, Pháp lý cần giải thích thấu đáo để xây dựng niềm tin trước khi quyết định.",
+      "outline_steps": [
+        {
+          "step": "Awareness",
+          "description": "Nêu vấn đề khách quan."
+        },
+        {
+          "step": "Comprehension",
+          "description": "Giải thích cơ chế, tiêu chuẩn chuyên môn dễ hiểu."
+        },
+        {
+          "step": "Conviction",
+          "description": "Củng cố niềm tin bằng trích dẫn Harvard & Case study."
+        },
+        {
+          "step": "Action",
+          "description": "Hướng dẫn đặt lịch tư vấn hoặc tra cứu thêm."
+        }
+      ],
+      "system_instructions": "Đề cao tính chuẩn xác khoa học và nguồn tham khảo uy tín."
+    },
+    {
+      "code": "SLAP",
+      "name": "SLAP — Stop · Look · Act · Purchase (Chốt nhanh ngắn gọn)",
+      "category": "conversion",
+      "target_platforms": [
+        "facebook",
+        "tiktok"
+      ],
+      "description": "Công thức bài ngắn nhịp nhanh dành cho ưu đãi giới hạn, ra mắt sản phẩm mới hoặc thương mại điện tử.",
+      "outline_steps": [
+        {
+          "step": "Stop & Look",
+          "description": "Hook thị giác/ngôn từ dừng cuộn ngay dòng đầu và nêu điểm nổi bật nhất."
+        },
+        {
+          "step": "Act & Purchase",
+          "description": "Ưu đãi rõ ràng và nút hành động trực tiếp."
+        }
+      ],
+      "system_instructions": "Ngắn gọn, sắc bén, giàu nhịp điệu, dễ đọc trong 15 giây."
+    },
+    {
+      "code": "3S_STORY",
+      "name": "3S (Star · Story · Solution) — Kể chuyện nhân vật thực tế",
+      "category": "storytelling",
+      "target_platforms": [
+        "facebook",
+        "tiktok"
+      ],
+      "description": "Xây dựng bài viết viral tự nhiên xoay quanh một nhân vật cụ thể, biến cố thực tế và bài học/giải pháp rút ra.",
+      "outline_steps": [
+        {
+          "step": "Star (Nhân vật chính)",
+          "description": "Giới thiệu nhân vật gần gũi với khách hàng mục tiêu."
+        },
+        {
+          "step": "Story (Biến cố & Hành trình)",
+          "description": "Kể lại tình huống vấp ngã hoặc trăn trở chân thực."
+        },
+        {
+          "step": "Solution (Bước ngoặt & Kết quả)",
+          "description": "Cách tháo gỡ vấn đề và kết quả thực tế đạt được."
+        }
+      ],
+      "system_instructions": "Kể tự nhiên như người thật trò chuyện, giàu chi tiết đời thường, tránh giọng văn quảng cáo lộ liễu."
+    },
+    {
+      "code": "HOOK_RETAIN_REWARD",
+      "name": "Hook · Retain · Reward — Kịch bản TikTok giữ chân 100%",
+      "category": "video_script",
+      "target_platforms": [
+        "tiktok",
+        "facebook"
+      ],
+      "description": "Công thức chuẩn thuật toán video ngắn: 3 giây đầu bắt mắt, thân bài mở vòng lặp tò mò và cuối video trao giá trị đắt giá.",
+      "outline_steps": [
+        {
+          "step": "0-3s: Visual & Verbal Hook",
+          "description": "Câu mở đầu gây tò mò cực mạnh kèm hành động/chữ nổi bật trên màn hình."
+        },
+        {
+          "step": "3-40s: Retain (Giữ nhịp)",
+          "description": "Triển khai 3 luận điểm ngắn, mỗi 4-5 giây chuyển cảnh hoặc tung số liệu."
+        },
+        {
+          "step": "40-60s: Reward & CTA",
+          "description": "Đúc kết bí quyết đắt giá nhất và kêu gọi lưu video / bình luận nhận tài liệu."
+        }
+      ],
+      "system_instructions": "Xuất kịch bản dưới dạng bảng phân cảnh (Thời lượng | Hình ảnh & Text trên màn hình | Lời thoại tự nhiên)."
+    },
+    {
+      "code": "HEROS_JOURNEY",
+      "name": "Hành Trình Anh Hùng Rút Gọn — Xây dựng thương hiệu & truyền cảm hứng",
+      "category": "storytelling",
+      "target_platforms": [
+        "facebook",
+        "website",
+        "tiktok"
+      ],
+      "description": "Kể hành trình vượt thử thách của nhà sáng lập, thương hiệu hoặc học viên/khách hàng tiêu biểu.",
+      "outline_steps": [
+        {
+          "step": "Xuất phát điểm & Thách thức",
+          "description": "Bối cảnh khó khăn ban đầu ai cũng từng trải qua."
+        },
+        {
+          "step": "Người dẫn đường & Phương pháp mới",
+          "description": "Phát hiện góc nhìn/công nghệ giúp xoay chuyển cục diện."
+        },
+        {
+          "step": "Thành quả & Sứ mệnh chia sẻ",
+          "description": "Kết quả thực chứng và giá trị trao lại cho cộng đồng."
+        }
+      ],
+      "system_instructions": "Giọng văn chân thành, sâu sắc, giàu chi tiết cụ thể."
+    },
+    {
+      "code": "MYTH_VS_TRUTH",
+      "name": "Phá Vỡ Lầm Tưởng (Myth vs. Truth) — Định vị chuyên gia đầu ngành",
+      "category": "storytelling",
+      "target_platforms": [
+        "facebook",
+        "tiktok",
+        "geo_google",
+        "seo_google"
+      ],
+      "description": "Chỉ ra 3 hiểu lầm phổ biến trên thị trường và phản biện văn minh bằng dữ liệu khoa học, giúp tăng chia sẻ mạnh mẽ.",
+      "outline_steps": [
+        {
+          "step": "Lầm tưởng phổ biến",
+          "description": "Nêu quan niệm số đông đang hiểu chưa đúng."
+        },
+        {
+          "step": "Góc nhìn khoa học & Số liệu thực tế",
+          "description": "Phân tích cơ chế thật sự kèm nguồn nghiên cứu uy tín."
+        },
+        {
+          "step": "Giải pháp áp dụng chuẩn xác",
+          "description": "Checklist hành động đúng cho người đọc."
+        }
+      ],
+      "system_instructions": "Phản biện khách quan dựa trên nghiên cứu, tuyệt đối không nói xấu hay hạ bệ đối thủ cụ thể."
+    },
+    {
+      "code": "INVERTED_PYRAMID",
+      "name": "Kim Tự Tháp Ngược + AIDA — Chuẩn SEO Google 49 Tiêu Chí",
+      "category": "seo_geo",
+      "target_platforms": [
+        "seo_google",
+        "website",
+        "geo_google"
+      ],
+      "description": "Đặt câu trả lời trực diện và thông tin quan trọng nhất ngay đầu bài, sau đó đi sâu chi tiết chuyên môn và mở rộng E-E-A-T.",
+      "outline_steps": [
+        {
+          "step": "Sapo Kim tự tháp ngược (3–5 dòng)",
+          "description": "Trả lời thẳng trọng tâm truy vấn, chứa từ khóa chính."
+        },
+        {
+          "step": "Thân bài phân tầng H2/H3 kèm câu dẫn",
+          "description": "Giải quyết toàn diện từng khía cạnh, đa dạng bảng biểu & bullet."
+        },
+        {
+          "step": "Bằng chứng E-E-A-T & Liên kết nội bộ",
+          "description": "Bổ sung số liệu, ví dụ thực tế, link bài liên quan và link sản phẩm."
+        },
+        {
+          "step": "Kết bài (3–5 dòng) & CTA 3S",
+          "description": "Tóm lược giá trị cốt lõi, nhắc lại từ khóa chính và thông tin liên hệ."
+        }
+      ],
+      "system_instructions": "Tuân thủ nghiêm ngặt 49 tiêu chí SEO: câu 20-30 từ, đoạn 60-80 từ, có câu dẫn sau H2/H3, mật độ từ khóa chính 1-3%."
+    },
+    {
+      "code": "APP_SEO_PILLAR",
+      "name": "APP (Agree · Promise · Preview) + Pillar SEO Toàn Diện",
+      "category": "seo_geo",
+      "target_platforms": [
+        "seo_google",
+        "website"
+      ],
+      "description": "Mở bài đồng cảm giữ chân Time-on-Site cực cao kết hợp bài viết trụ cột phân tích chuyên sâu.",
+      "outline_steps": [
+        {
+          "step": "Mở bài APP (3–5 dòng)",
+          "description": "Đồng tình với trăn trở của người đọc -> Hứa hẹn kết quả -> Hé lộ lộ trình bài viết."
+        },
+        {
+          "step": "Phân tích chuyên sâu đa chiều (H2/H3/H4)",
+          "description": "Kết hợp định nghĩa, quy trình từng bước, bảng so sánh trực quan và lưu ý thực tế."
+        },
+        {
+          "step": "Tổng kết & Chuyển đổi",
+          "description": "Đúc kết hành động kèm thông tin liên hệ thương hiệu."
+        }
+      ],
+      "system_instructions": "Đảm bảo mỗi đoạn có câu đầu khái quát ý chính, chèn tối thiểu 3 hình minh họa/1000 chữ kèm chú thích nghiêng <70 ký tự."
+    },
+    {
+      "code": "GEO_BLUF_TRIPLES",
+      "name": "GEO / AI Overviews — TL;DR + Bộ Ba Ngữ Nghĩa + Information Gain",
+      "category": "seo_geo",
+      "target_platforms": [
+        "geo_google",
+        "seo_google"
+      ],
+      "description": "Tối ưu chuyên sâu 61 tiêu chí AIO để Google AI Overviews, ChatGPT Search và Perplexity ưu tiên trích dẫn nguồn.",
+      "outline_steps": [
+        {
+          "step": "Khối TL;DR (Bullet tóm tắt cốt lõi)",
+          "description": "3–4 gạch đầu dòng tóm tắt câu trả lời chính xác nhất ngay đầu bài."
+        },
+        {
+          "step": "Hệ thống H2/H3 dạng câu hỏi trực diện",
+          "description": "Mỗi mục trả lời dứt điểm 1 truy vấn trong đoạn 60–80 từ."
+        },
+        {
+          "step": "Bộ ba ngữ nghĩa & Trường từ vựng",
+          "description": "Câu chủ đề theo cấu trúc Chủ thể - Vị ngữ - Tân ngữ; mỗi đoạn chứa >=3 từ cùng trường từ vựng."
+        },
+        {
+          "step": "Information Gain, Case Study & Trích dẫn Harvard",
+          "description": "Bổ sung >=3 góc nhìn/số liệu mới vượt Top 10, dẫn nguồn (Tác giả, Năm) và khối FAQs cuối bài."
+        }
+      ],
+      "system_instructions": "Viết rõ ràng, giàu thực thể định danh, tuyệt đối tránh câu văn mơ hồ chung chung để AI dễ lập chỉ mục ngữ nghĩa."
+    },
+    {
+      "code": "5W1H_ANALYTICAL",
+      "name": "5W1H Chuyên Gia — Giải mã toàn diện chủ đề phức tạp",
+      "category": "seo_geo",
+      "target_platforms": [
+        "seo_google",
+        "geo_google",
+        "website"
+      ],
+      "description": "Triển khai bài bản theo 6 chiều câu hỏi What – Why – Who – When – Where – How giúp bao phủ 100% ý định tìm kiếm.",
+      "outline_steps": [
+        {
+          "step": "What & Why",
+          "description": "Bản chất vấn đề và tầm quan trọng thực tiễn."
+        },
+        {
+          "step": "Who, When & Where",
+          "description": "Đối tượng phù hợp, thời điểm và bối cảnh áp dụng hiệu quả."
+        },
+        {
+          "step": "How (Hướng dẫn thực hành)",
+          "description": "Các bước triển khai chi tiết kèm bảng kiểm thực tế."
+        }
+      ],
+      "system_instructions": "Đặt các thẻ H2 dưới dạng câu hỏi rõ nghĩa và trả lời súc tích ngay câu đầu tiên của đoạn."
+    },
+    {
+      "code": "STRING_LISTICLE",
+      "name": "STRING / Listicle Chuyên Sâu — Tổng hợp có phân tích & bảng so sánh",
+      "category": "seo_geo",
+      "target_platforms": [
+        "seo_google",
+        "geo_google",
+        "facebook"
+      ],
+      "description": "Bài dạng danh sách tổng hợp kèm tiêu chí đánh giá khách quan và bảng tổng hợp giúp người đọc ra quyết định nhanh.",
+      "outline_steps": [
+        {
+          "step": "Tiêu chí đánh giá minh bạch",
+          "description": "Nêu rõ bộ tiêu chí chọn lọc khách quan ngay đầu bài."
+        },
+        {
+          "step": "Phân tích chi tiết từng hạng mục",
+          "description": "Mỗi mục gồm đặc điểm cốt lõi, đối tượng phù hợp và lưu ý thực tế."
+        },
+        {
+          "step": "Bảng tổng hợp nhanh & Khuyến nghị",
+          "description": "Kẻ bảng đối chiếu trực quan và gợi ý lựa chọn theo nhu cầu."
+        }
+      ],
+      "system_instructions": "Không xếp hạng hạ thấp doanh nghiệp khác khi thiếu công bố của bên thứ 3 uy tín (tuân thủ Checklist #13)."
+    },
+    {
+      "code": "CASE_STUDY_EEAT",
+      "name": "Case Study Thực Chứng (E-E-A-T) — Bối cảnh · Thách thức · Giải pháp · Kết quả",
+      "category": "seo_geo",
+      "target_platforms": [
+        "geo_google",
+        "seo_google",
+        "website",
+        "facebook"
+      ],
+      "description": "Thể hiện năng lực thực thi của thương hiệu qua dự án thực tế và số liệu đo lường minh bạch.",
+      "outline_steps": [
+        {
+          "step": "Bối cảnh & Bài toán ban đầu",
+          "description": "Quy mô, hiện trạng và chỉ số xuất phát điểm."
+        },
+        {
+          "step": "Thách thức trọng tâm",
+          "description": "Những nút thắt kỹ thuật hoặc vận hành cần tháo gỡ."
+        },
+        {
+          "step": "Giải pháp triển khai từng giai đoạn",
+          "description": "Phương pháp tiếp cận và công cụ áp dụng thực tế."
+        },
+        {
+          "step": "Kết quả định lượng & Nhận xét khách hàng",
+          "description": "Số liệu tăng trưởng thực tế và trích dẫn phản hồi từ khách hàng."
+        }
+      ],
+      "system_instructions": "Khai thác triệt để dữ liệu Case study và trích dẫn khách hàng trong Bộ não thứ 2 của ngành nghề."
+    },
+    {
+      "code": "PERSONAL_STORY_FB",
+      "name": "Góc Nhìn Nghề & Trải Nghiệm Thật — Xây dựng Nhân hiệu Facebook",
+      "category": "storytelling",
+      "target_platforms": [
+        "facebook"
+      ],
+      "description": "Chia sẻ bài học xương máu, quan sát thực tế từ công việc hàng ngày với giọng văn đời thường, giàu chiều sâu.",
+      "outline_steps": [
+        {
+          "step": "Khoảnh khắc thực tế (Hook đời thường)",
+          "description": "Mở đầu từ một cuộc hội thoại, ca tư vấn hoặc chi tiết vừa gặp."
+        },
+        {
+          "step": "Bóc tách bài học chuyên môn",
+          "description": "Đúc kết 3 góc nhìn thực tế ít người nói thẳng."
+        },
+        {
+          "step": "Câu hỏi mở thảo luận",
+          "description": "Gợi mở góc nhìn để độc giả bình luận chia sẻ kinh nghiệm."
+        }
+      ],
+      "system_instructions": "Viết tự nhiên như chuyên gia đang viết nhật ký nghề, câu ngắn vừa phải, không dùng từ sáo rỗng."
+    }
+  ],
+  "seed_vaults": [
+    {
+      "name": "Bất động sản & Đầu tư",
+      "slug": "bat-dong-san",
+      "description": "Kho tri thức chuyên sâu về bất động sản nhà ở, căn hộ chung cư, đất nền pháp lý sạch và phân tích dòng tiền đầu tư.",
+      "brand_name": "AnPhat Realty",
+      "brand_tone_colors": [
+        "#0F4C5C",
+        "#C8963E",
+        "#F7F5F0"
+      ],
+      "brand_logo_text": "ANPHAT REALTY",
+      "pronoun_pair": "Chúng tôi - Quý nhà đầu tư",
+      "messaging_general": "AnPhat Realty đồng hành kiến tạo tài sản thực với pháp lý minh bạch và dòng tiền bền vững.",
+      "messaging_category": "Danh mục căn hộ & khu đô thị quy hoạch đồng bộ hạ tầng, thanh khoản thực cao.",
+      "messaging_product": "Căn hộ chuẩn bàn giao sổ hồng từng căn, tối ưu tỷ suất khai thác cho thuê 5.8–6.5%/năm.",
+      "target_audience": "Nhà đầu tư cá nhân và gia đình trẻ mua ở thực từ 28–50 tuổi, ưu tiên pháp lý sổ hồng, tiến độ hạ tầng và khả năng giữ giá tài sản.",
+      "terminology_lexicon": [
+        "pháp lý sổ hồng",
+        "quy hoạch hạ tầng",
+        "thanh khoản thực",
+        "tỷ suất cho thuê",
+        "dòng tiền ròng",
+        "biên độ tăng giá",
+        "mật độ xây dựng",
+        "bàn giao nội thất",
+        "vành đai kết nối",
+        "đòn bẩy tài chính",
+        "lãi suất thả nổi",
+        "quỹ căn độc quyền",
+        "chủ đầu tư uy tín",
+        "quy hoạch 1/500",
+        "giá sơ cấp"
+      ],
+      "compliance_taboo": [
+        "cam kết lãi 100%",
+        "chắc chắn nhân đôi",
+        "lợi nhuận không rủi ro",
+        "số 1 Việt Nam"
+      ],
+      "internal_links": [
+        {
+          "title": "Cách thẩm định pháp lý quy hoạch 1/500 trước khi xuống tiền",
+          "url": "https://anphatrealty.vn/blog/tham-dinh-phap-ly-1-500",
+          "type": "article"
+        },
+        {
+          "title": "Bảng tính dòng tiền cho thuê căn hộ khu Đông 2026",
+          "url": "https://anphatrealty.vn/san-pham/can-ho-khu-dong",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Hiệp hội Bất động sản Việt Nam [VNREA], 2026)",
+          "title": "Báo cáo thị trường nhà ở và xu hướng dịch chuyển đô thị vệ tinh",
+          "url": "https://vnrea.vn/bao-cao-thi-truong-2026"
+        },
+        {
+          "citation": "(Savills Vietnam, 2026)",
+          "title": "Chỉ số giá và tỷ suất lợi nhuận cho thuê căn hộ tại TP.HCM & Hà Nội",
+          "url": "https://savills.com.vn/research-2026"
+        }
+      ],
+      "case_studies": [
+        "Dự án Khu đô thị EcoPark Đông Sài Gòn: Tỷ lệ lấp đầy cư dân đạt 84% sau 14 tháng bàn giao, tỷ suất khai thác cho thuê trung bình đạt 6.2%/năm trên 120 căn khảo sát nội bộ.",
+        "Khách hàng anh Minh Hoàng (Quận 7): Tái cơ cấu danh mục từ đất nền xa sang 2 căn hộ gần tuyến Metro giúp tạo dòng tiền đều 26 triệu/tháng."
+      ]
+    },
+    {
+      "name": "Y tế, Nha khoa & Thẩm mỹ",
+      "slug": "y-te-nha-khoa",
+      "description": "Tri thức y khoa chuẩn mực về nha khoa phục hình, chỉnh nha kỹ thuật số, chăm sóc da liễu chuẩn y khoa an toàn.",
+      "brand_name": "VinaCare Dental & Clinic",
+      "brand_tone_colors": [
+        "#14532D",
+        "#0E7490",
+        "#F8FAFC"
+      ],
+      "brand_logo_text": "VINACARE CLINIC",
+      "pronoun_pair": "Đội ngũ Bác sĩ - Cô Chú / Anh Chị",
+      "messaging_general": "VinaCare đặt an toàn y khoa và bảo tồn mô tự nhiên làm kim chỉ nam trong mọi phác đồ điều trị.",
+      "messaging_category": "Phác đồ nha khoa kỹ thuật số cá nhân hóa bằng chụp phim CT ConeBeam 3D chính xác cao.",
+      "messaging_product": "Trồng răng Implant dẫn hướng máng phẫu thuật 3D hạn chế xâm lấn, tích hợp xương ổn định lâu dài.",
+      "target_audience": "Khách hàng 25–65 tuổi quan tâm sức khỏe răng miệng và thẩm mỹ an toàn, lo ngại biến chứng, ưu tiên bác sĩ có chứng chỉ hành nghề rõ ràng.",
+      "terminology_lexicon": [
+        "phác đồ cá nhân hóa",
+        "chụp phim CT ConeBeam",
+        "tích hợp xương",
+        "vô trùng khép kín",
+        "bảo tồn răng thật",
+        "máng hướng dẫn phẫu thuật",
+        "khớp cắn chuẩn",
+        "vật liệu sinh học",
+        "chứng chỉ hành nghề",
+        "kiểm soát nhiễm khuẩn",
+        "quét dấu hàm iTero",
+        "mô nướu lành thương",
+        "tái khám định kỳ",
+        "tiêu xương hàm",
+        "phục hình sứ"
+      ],
+      "compliance_taboo": [
+        "trị dứt điểm 100%",
+        "cam kết khỏi hoàn toàn",
+        "vĩnh viễn trọn đời không hỏng",
+        "thần dược"
+      ],
+      "internal_links": [
+        {
+          "title": "Quy trình 6 bước vô trùng chuẩn Bộ Y tế trong cấy ghép nha khoa",
+          "url": "https://vinacareclinic.vn/blog/quy-trinh-vo-trung",
+          "type": "article"
+        },
+        {
+          "title": "Dịch vụ trồng răng Implant kỹ thuật số 3D an toàn",
+          "url": "https://vinacareclinic.vn/dich-vu/trong-rang-implant-3d",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Buser et al., 2024)",
+          "title": "Long-term stability of contour augmentation with guided bone regeneration in implant dentistry",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "citation": "(Bộ Y tế Việt Nam, 2025)",
+          "title": "Hướng dẫn quy trình kỹ thuật khám bệnh, chữa bệnh chuyên ngành Răng Hàm Mặt",
+          "url": "https://moh.gov.vn/"
+        }
+      ],
+      "case_studies": [
+        "Thống kê 450 ca phục hình Implant máng hướng dẫn 3D tại VinaCare (2025–2026): Thời gian đặt trụ rút ngắn còn 15–20 phút/trụ, 98.4% bệnh nhân sinh hoạt nhẹ nhàng ngay sau 24 giờ.",
+        "Chú Quốc Tuấn (58 tuổi, Hà Nội): Khôi phục lực nhai ổn định ở vùng răng hàm dưới sau 10 tuần tích hợp xương theo phác đồ bảo tồn."
+      ]
+    },
+    {
+      "name": "F&B, Nhà hàng & Chuỗi đồ uống",
+      "slug": "fnb-nha-hang",
+      "description": "Kiến thức ngành ẩm thực, vận hành chuỗi quán cà phê/trà đặc sản, tối ưu thực đơn (Menu Engineering) và trải nghiệm thực khách.",
+      "brand_name": "Lộc Trà & Bistro",
+      "brand_tone_colors": [
+        "#7C2D12",
+        "#B45309",
+        "#FFFBEB"
+      ],
+      "brand_logo_text": "LOC TRA ARTISAN",
+      "pronoun_pair": "Tụi mình - Bạn",
+      "messaging_general": "Lộc Trà tôn vinh nông sản bản địa Việt Nam qua quy trình ủ lạnh giữ trọn hương vị nguyên bản.",
+      "messaging_category": "Thức uống trà shan tuyết cổ thụ và bánh thủ công ít ngọt tốt cho sức khỏe.",
+      "messaging_product": "Bộ sưu tập Trà Ô Long Ủ Lạnh 16 Giờ thanh mát, dùng mật hoa dừa tự nhiên thay đường tinh luyện.",
+      "target_audience": "Giới văn phòng và người trẻ 20–38 tuổi yêu thích không gian làm việc tinh tế, chuộng đồ uống nguyên liệu thật, ít đường, minh bạch nguồn gốc.",
+      "terminology_lexicon": [
+        "nguyên liệu bản địa",
+        "ủ lạnh cold brew",
+        "hậu vị thanh ngọt",
+        "trà shan tuyết",
+        "ít đường tinh luyện",
+        "cấu trúc hương vị",
+        "trải nghiệm thực khách",
+        "an toàn vệ sinh thực phẩm",
+        "rang xay thủ công",
+        "thực đơn theo mùa",
+        "tỷ lệ chiết xuất",
+        "không phẩm màu tổng hợp",
+        "đặt bàn trực tuyến",
+        "chi phí nguyên vật liệu",
+        "khẩu vị tự nhiên"
+      ],
+      "compliance_taboo": [
+        "giảm cân thần tốc",
+        "thanh lọc độc tố chữa bệnh",
+        "ngon nhất thế giới"
+      ],
+      "internal_links": [
+        {
+          "title": "Hành trình thu hái búp trà Shan Tuyết vùng cao Hà Giang",
+          "url": "https://loctra.vn/blog/tra-shan-tuyet-ha-giang",
+          "type": "article"
+        },
+        {
+          "title": "Thực đơn Trà Ô Long Ủ Lạnh Ít Ngọt theo mùa",
+          "url": "https://loctra.vn/menu/tra-u-lanh",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Viện Dinh dưỡng Quốc gia, 2025)",
+          "title": "Khuyến nghị giảm lượng đường tự do trong khẩu phần đồ uống hàng ngày",
+          "url": "https://viendinhduong.vn/"
+        }
+      ],
+      "case_studies": [
+        "Chuyển đổi công thức giảm 35% đường tinh luyện tại 8 cơ sở Lộc Trà giúp tỷ lệ khách hàng quay lại trong 30 ngày tăng từ 31% lên 48%."
+      ]
+    },
+    {
+      "name": "Giáo dục, Đào tạo & EdTech",
+      "slug": "giao-duc-edtech",
+      "description": "Đào tạo ngoại ngữ, kỹ năng số, luyện thi chứng chỉ quốc tế và nền tảng học tập cá nhân hóa bằng AI.",
+      "brand_name": "MindStep Academy",
+      "brand_tone_colors": [
+        "#1E3A8A",
+        "#0D9488",
+        "#F8FAFC"
+      ],
+      "brand_logo_text": "MINDSTEP EDU",
+      "pronoun_pair": "MindStep - Học viên / Phụ huynh",
+      "messaging_general": "MindStep xây dựng năng lực tư duy độc lập và lộ trình học tập đo lường bằng năng lực thực hành.",
+      "messaging_category": "Chương trình đào tạo kết hợp lớp tương tác trực tiếp và hệ thống chấm chữa bài chi tiết.",
+      "messaging_product": "Lộ trình IELTS & Tiếng Anh Học Thuật 12 tuần cá nhân hóa theo điểm yếu từng kỹ năng.",
+      "target_audience": "Sinh viên, người đi làm 18–35 tuổi và phụ huynh học sinh cấp 2–3 cần lộ trình rõ ràng, cam kết đầu ra minh bạch bằng hợp đồng đào tạo.",
+      "terminology_lexicon": [
+        "lộ trình cá nhân hóa",
+        "kiểm tra đầu vào",
+        "tư duy phản biện",
+        "chấm chữa chi tiết",
+        "phương pháp lặp lại ngắt quãng",
+        "từ vựng học thuật",
+        "phản xạ giao tiếp",
+        "chuẩn đầu ra",
+        "học tập chủ động",
+        "bài tập tình huống",
+        "theo dõi tiến độ",
+        "giảng viên hướng dẫn",
+        "kỹ năng viết luận",
+        "đánh giá năng lực",
+        "học liệu chuẩn hóa"
+      ],
+      "compliance_taboo": [
+        "bao đậu 100% không cần học",
+        "lấy bằng cấp tốc không thi"
+      ],
+      "internal_links": [
+        {
+          "title": "Phương pháp Spaced Repetition giúp nhớ sâu từ vựng học thuật gấp 3 lần",
+          "url": "https://mindstep.edu.vn/blog/spaced-repetition",
+          "type": "article"
+        },
+        {
+          "title": "Khóa học IELTS Intensive cá nhân hóa 12 tuần",
+          "url": "https://mindstep.edu.vn/khoa-hoc/ielts-intensive",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Cepeda et al., 2008)",
+          "title": "Spacing effects in learning: A temporal ridgeline of optimal retention",
+          "url": "https://journals.sagepub.com/"
+        }
+      ],
+      "case_studies": [
+        "Khảo sát 320 học viên khóa Q2/2026 tại MindStep: 86% tăng tối thiểu 1.0 band điểm Writing sau 12 tuần nhờ quy trình sửa bài 2 vòng."
+      ]
+    },
+    {
+      "name": "Công nghệ, Phần mềm & AI SaaS",
+      "slug": "cong-nghe-saas",
+      "description": "Giải pháp chuyển đổi số doanh nghiệp, phần mềm quản trị CRM/ERP, tự động hóa quy trình bằng AI và bảo mật dữ liệu.",
+      "brand_name": "NovaFlow Cloud",
+      "brand_tone_colors": [
+        "#0F172A",
+        "#0284C7",
+        "#F1F5F9"
+      ],
+      "brand_logo_text": "NOVAFLOW AI",
+      "pronoun_pair": "NovaFlow - Doanh nghiệp / Anh Chị",
+      "messaging_general": "NovaFlow giúp doanh nghiệp vừa và nhỏ tự động hóa vận hành thực chất, triển khai nhanh trong 7 ngày.",
+      "messaging_category": "Nền tảng quản trị khách hàng & tự động hóa quy trình tích hợp đa kênh hợp nhất.",
+      "messaging_product": "NovaFlow CRM & AI Workflow giảm 45% thao tác nhập liệu thủ công cho đội ngũ kinh doanh.",
+      "target_audience": "Chủ doanh nghiệp SME, Giám đốc vận hành (COO), Trưởng phòng Marketing/Sales cần tối ưu hiệu suất nhân sự và đồng bộ dữ liệu tập trung.",
+      "terminology_lexicon": [
+        "tự động hóa quy trình",
+        "đồng bộ dữ liệu đa kênh",
+        "tích hợp API mở",
+        "bảo mật phân quyền",
+        "báo cáo thời gian thực",
+        "tối ưu tỷ lệ chuyển đổi",
+        "chi phí sở hữu TCO",
+        "triển khai đám mây",
+        "trải nghiệm đa điểm chạm",
+        "quản trị phễu bán hàng",
+        "giảm thao tác thủ công",
+        "hiệu suất vận hành",
+        "khả năng mở rộng",
+        "đối soát tự động",
+        "SLA cam kết"
+      ],
+      "compliance_taboo": [
+        "không bao giờ lỗi",
+        "thay thế 100% con người ngay lập tức"
+      ],
+      "internal_links": [
+        {
+          "title": "Hướng dẫn xây dựng phễu tự động hóa chăm sóc khách hàng B2B",
+          "url": "https://novaflow.vn/blog/automation-b2b",
+          "type": "article"
+        },
+        {
+          "title": "Bảng giá & Tính năng NovaFlow CRM hợp nhất đa kênh",
+          "url": "https://novaflow.vn/san-pham/crm-ai",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(McKinsey & Company, 2025)",
+          "title": "The economic potential of generative AI and workflow automation in SMEs",
+          "url": "https://www.mckinsey.com/"
+        }
+      ],
+      "case_studies": [
+        "Chuỗi phân phối Minh Phát (65 nhân sự sales): Sau 60 ngày triển khai NovaFlow CRM, thời gian phản hồi lead giảm từ 28 phút xuống còn 90 giây, doanh thu chốt đơn tăng 24%."
+      ]
+    },
+    {
+      "name": "Thương mại điện tử & Bán lẻ",
+      "slug": "thuong-mai-dien-tu",
+      "description": "Tối ưu gian hàng sàn TMĐT, vận hành Omnichannel, livestream bán hàng chuẩn chỉnh và hậu cần hoàn tất đơn hàng.",
+      "brand_name": "OmniCart Vietnam",
+      "brand_tone_colors": [
+        "#9A3412",
+        "#0F766E",
+        "#FAFAF9"
+      ],
+      "brand_logo_text": "OMNICART VN",
+      "pronoun_pair": "OmniCart - Nhà bán hàng / Quý đối tác",
+      "messaging_general": "OmniCart chuẩn hóa vận hành bán lẻ đa kênh giúp nhà bán hàng tăng trưởng lợi nhuận ròng bền vững.",
+      "messaging_category": "Giải pháp đồng bộ tồn kho, đơn hàng và chăm sóc khách hàng sau mua trên mọi sàn TMĐT.",
+      "messaging_product": "Bộ giải pháp Quản lý Tồn kho & Đối soát phí sàn tự động chính xác từng đơn hàng.",
+      "target_audience": "Chủ shop thương mại điện tử, thương hiệu D2C từ 50–2000 đơn/ngày đang gặp áp lực phí sàn, lệch tồn kho và hoàn hủy đơn.",
+      "terminology_lexicon": [
+        "biên lợi nhuận ròng",
+        "đối soát phí sàn",
+        "tỷ lệ chuyển đổi gian hàng",
+        "giá trị đơn hàng trung bình AOV",
+        "đồng bộ tồn kho",
+        "tỷ lệ hoàn hàng",
+        "tối ưu hiển thị tự nhiên",
+        "chăm sóc sau bán",
+        "khách hàng quay lại",
+        "đóng gói chuẩn SLA",
+        "quảng cáo nội sàn",
+        "livestream thương mại",
+        "đa kênh hợp nhất",
+        "vòng quay hàng tồn",
+        "chi phí thu hút khách hàng"
+      ],
+      "compliance_taboo": [
+        "xả kho phá sản giả mạo",
+        "bùng nổ triệu đơn sau 1 đêm"
+      ],
+      "internal_links": [
+        {
+          "title": "Cách tính biên lợi nhuận ròng thực tế trên sàn TMĐT năm 2026",
+          "url": "https://omnicart.vn/blog/tinh-bien-loi-nhuan-san",
+          "type": "article"
+        },
+        {
+          "title": "Phần mềm đối soát phí sàn & tồn kho tự động OmniCart",
+          "url": "https://omnicart.vn/giai-phap/doi-soat-san",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Hiệp hội Thương mại điện tử Việt Nam [VECOM], 2026)",
+          "title": "Báo cáo Chỉ số Thương mại điện tử Việt Nam EBI 2026",
+          "url": "https://vecom.vn/"
+        }
+      ],
+      "case_studies": [
+        "Thương hiệu gia dụng KovaHome (800 đơn/ngày): Phát hiện và thu hồi 42 triệu đồng chênh lệch phí vận chuyển sau 1 tháng đối soát tự động qua OmniCart."
+      ]
+    },
+    {
+      "name": "Tài chính, Ngân hàng & Bảo hiểm",
+      "slug": "tai-chinh-ngan-hang",
+      "description": "Quản lý tài chính cá nhân, giải pháp tín dụng doanh nghiệp, đầu tư tích sản kỷ luật và hoạch định bảo vệ tài chính gia đình.",
+      "brand_name": "FinWise Advisory",
+      "brand_tone_colors": [
+        "#1E293B",
+        "#15803D",
+        "#F8FAFC"
+      ],
+      "brand_logo_text": "FINWISE",
+      "pronoun_pair": "FinWise - Quý khách hàng",
+      "messaging_general": "FinWise minh bạch hóa mọi con số tài chính để mỗi gia đình Việt tự tin xây dựng quỹ dự phòng vững chắc.",
+      "messaging_category": "Tư vấn hoạch định tài chính cá nhân độc lập và quản trị rủi ro đa tầng.",
+      "messaging_product": "Gói Hoạch định Tháp Tài Chính & Quỹ Dự Phòng Khẩn Cấp 6 tháng chi tiêu.",
+      "target_audience": "Người đi làm có thu nhập ổn định và gia đình trẻ 26–45 tuổi muốn phân bổ tiết kiệm, đầu tư an toàn và hiểu đúng điều khoản hợp đồng tài chính.",
+      "terminology_lexicon": [
+        "quỹ dự phòng khẩn cấp",
+        "lãi kép dài hạn",
+        "phân bổ tài sản",
+        "khẩu vị rủi ro",
+        "dòng tiền thặng dư",
+        "lãi suất thực dương",
+        "danh mục tích sản",
+        "chi phí cơ hội",
+        "minh bạch điều khoản",
+        "bảo vệ thu nhập",
+        "tỷ lệ nợ an toàn",
+        "tái cân bằng danh mục",
+        "lạm phát mục tiêu",
+        "kỷ luật tài chính",
+        "báo cáo dòng tiền"
+      ],
+      "compliance_taboo": [
+        "lãi suất cam kết siêu lợi nhuận",
+        "đầu tư không bao giờ lỗ",
+        "vay không thẩm định"
+      ],
+      "internal_links": [
+        {
+          "title": "Quy tắc phân bổ thu nhập và xây dựng quỹ dự phòng 6 tháng",
+          "url": "https://finwise.vn/blog/quy-du-phong-6-thang",
+          "type": "article"
+        },
+        {
+          "title": "Công cụ lập kế hoạch tài chính gia đình 1-1 cùng chuyên gia",
+          "url": "https://finwise.vn/dich-vu/hoach-dinh-tai-chinh",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Ngân hàng Thế giới [World Bank], 2025)",
+          "title": "Global Findex Database: Financial Inclusion and Household Resilience",
+          "url": "https://www.worldbank.org/"
+        }
+      ],
+      "case_studies": [
+        "Gia đình anh Tuấn & chị Lan (TP.HCM): Tối ưu lại các khoản vay tiêu dùng lãi cao giúp tiết kiệm 4.8 triệu đồng tiền lãi mỗi tháng và hoàn tất quỹ dự phòng 150 triệu sau 11 tháng."
+      ]
+    },
+    {
+      "name": "Thời trang, Mỹ phẩm & Làm đẹp",
+      "slug": "thoi-trang-my-pham",
+      "description": "Chăm sóc da khoa học theo bảng thành phần hoạt chất, thời trang ứng dụng bền vững và định hình phong cách cá nhân.",
+      "brand_name": "LumiSkin Lab",
+      "brand_tone_colors": [
+        "#4A3525",
+        "#2E6F65",
+        "#FDFBF7"
+      ],
+      "brand_logo_text": "LUMISKIN LAB",
+      "pronoun_pair": "LumiSkin - Nàng / Bạn",
+      "messaging_general": "LumiSkin nuôi dưỡng hàng rào bảo vệ da khỏe tự nhiên bằng công thức hoạt chất minh bạch nồng độ.",
+      "messaging_category": "Dược mỹ phẩm phục hồi da nhạy cảm phù hợp khí hậu nóng ẩm Việt Nam.",
+      "messaging_product": "Tinh chất Phục Hồi B5 + Ceramide nồng độ chuẩn dịu nhẹ, thấm nhanh không bết dính.",
+      "target_audience": "Phụ nữ và nam giới 20–40 tuổi đọc kỹ bảng thành phần (skincare khoa học), da nhạy cảm hoặc da dầu mụn cần sản phẩm lành tính có kiểm nghiệm da liễu.",
+      "terminology_lexicon": [
+        "hàng rào bảo vệ da",
+        "bảng thành phần minh bạch",
+        "độ pH cân bằng",
+        "kiểm nghiệm da liễu",
+        "không gây bít tắc lỗ chân lông",
+        "cấp ẩm đa tầng",
+        "phục hồi màng ẩm",
+        "chống oxy hóa",
+        "kết cấu mỏng nhẹ",
+        "hoạt chất nồng độ chuẩn",
+        "da dầu nhạy cảm",
+        "thử nghiệm lâm sàng",
+        "không cồn khô",
+        "chu trình tối giản",
+        "bảo vệ phổ rộng"
+      ],
+      "compliance_taboo": [
+        "trắng bật tông sau 1 đêm",
+        "trị sạch nám vĩnh viễn",
+        "xóa nhăn tức thì như tiêm"
+      ],
+      "internal_links": [
+        {
+          "title": "Cách đọc bảng thành phần phục hồi màng ẩm Ceramide & Panthenol",
+          "url": "https://lumiskin.vn/blog/ceramide-panthenol",
+          "type": "article"
+        },
+        {
+          "title": "Serum Phục Hồi Màng Ẩm LumiSkin B5 + 5X Ceramide",
+          "url": "https://lumiskin.vn/san-pham/serum-b5-ceramide",
+          "type": "product"
+        }
+      ],
+      "harvard_references": [
+        {
+          "citation": "(Draelos, 2023)",
+          "title": "The effect of ceramide-containing skin care products on barrier function in sensitive skin",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        }
+      ],
+      "case_studies": [
+        "Thử nghiệm cảm nhận trên 110 tình nguyện viên da hỗn hợp thiên dầu tại TP.HCM trong 28 ngày: 91% ghi nhận tình trạng đỏ rát giảm rõ rệt và không phát sinh nhân mụn ẩn mới."
+      ]
+    }
+  ],
+  "ai_cliches": [
+    "trong bối cảnh hiện nay",
+    "trong thời đại công nghệ 4.0",
+    "trong kỷ nguyên số",
+    "không thể phủ nhận rằng",
+    "chìa khóa vàng",
+    "bức tranh toàn cảnh",
+    "hãy cùng khám phá",
+    "tóm lại,",
+    "như chúng ta đã biết",
+    "đóng vai trò vô cùng quan trọng",
+    "một cách toàn diện nhất",
+    "nâng tầm trải nghiệm",
+    "bước đột phá ngoạn mục",
+    "giải pháp hoàn hảo nhất",
+    "không chỉ dừng lại ở đó",
+    "hơn bao giờ hết",
+    "cẩm nang toàn tập",
+    "bí quyết thần thánh"
+  ],
+  "ad_law_taboos": [
+    "nhất việt nam",
+    "số 1 việt nam",
+    "tốt nhất thị trường",
+    "duy nhất tại",
+    "cam kết 100%",
+    "trị dứt điểm",
+    "khỏi hoàn toàn 100%"
+  ]
+}
