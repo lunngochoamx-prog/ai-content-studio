@@ -1,0 +1,522 @@
+[
+  {
+    "stt": 1,
+    "group": "Căn bản",
+    "sub_group": "Không copy",
+    "detail": "Bài viết đạt tiêu chuẩn Unique >90% với bài viết ngoài website và >70% với bài viết trong cùng website",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 2,
+    "group": "Căn bản",
+    "sub_group": "Ngữ pháp",
+    "detail": "Đúng ngữ pháp, diễn đạt mạch lạc, thoát ý",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 3,
+    "group": "Căn bản",
+    "sub_group": "Chính tả",
+    "detail": "Không có lỗi chính tả",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 4,
+    "group": "Branding",
+    "sub_group": "Xưng hô",
+    "detail": "Cách xưng hô thống nhất với từng nhóm khách hàng mục tiêu",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 5,
+    "group": "Branding",
+    "sub_group": "Văn phong",
+    "detail": "- Văn phong đúng tinh thần thương hiệu/Brandvoice\n- Giọng điệu phù hợp với khách hàng mục tiêu\n- Duy trì sự nhận diện thương hiệu qua cách diễn đạt, từ ngữ và hình ảnh.",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 6,
+    "group": "Branding",
+    "sub_group": "Thông điệp truyền thông nhất quán",
+    "detail": "Thông điệp chung (DN): Thông điệp truyền thông nhất quán, xuyên suốt trong các bài SEO khi nhắc đến thương hiệu",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 7,
+    "group": "Branding",
+    "sub_group": "Thông điệp truyền thông nhất quán",
+    "detail": "Thông điệp cho từng nhóm SP/DV: Nhất quán trên tất cả các kênh truyền thông khi nhắc đến nhóm SP/DV của thương hiệu",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 8,
+    "group": "Branding",
+    "sub_group": "Thông điệp truyền thông nhất quán",
+    "detail": "Thông điệp cho từng sản phẩm: Nhất quán trên tất cả các kênh truyền thông khi nhắc đến sản phẩm của thương hiệu.",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 9,
+    "group": "Branding",
+    "sub_group": "CTA",
+    "detail": "Đảm bảo nguyên tắc 3S (Simple, Specific, Strong)",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 10,
+    "group": "Branding",
+    "sub_group": "CTA",
+    "detail": "1 bài có ít nhất 1 CTA",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 11,
+    "group": "Branding",
+    "sub_group": "CTA",
+    "detail": "Thiết kế mô hình CTA theo hành trình của người dùng.",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 12,
+    "group": "Branding",
+    "sub_group": "Quy định quảng cáo",
+    "detail": "Tuân thủ 6 quy định quảng cáo: https://seongon.com/blog/content/quy-dinh-luat-quang-cao-can-chu-y-khi-viet-content-seo.html",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 13,
+    "group": "Branding",
+    "sub_group": "Quy định quảng cáo",
+    "detail": "Không so sánh, xếp hạng doanh nghiệp khác nếu không có thống kê/công bố của bên thứ 3 uy tín",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 14,
+    "group": "Hình ảnh",
+    "sub_group": "Trải nghiệm người dùng",
+    "detail": "Ảnh nét, đảm bảo không bị vỡ/mờ",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 15,
+    "group": "Hình ảnh",
+    "sub_group": "Trải nghiệm người dùng",
+    "detail": "Bài viết 1000 chữ tối thiểu 3 hình (~300 - 400 chữ có 1 hình)",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 16,
+    "group": "Hình ảnh",
+    "sub_group": "Trải nghiệm người dùng",
+    "detail": "Hình ảnh liên quan đến nội dung bài viết, đoạn văn xung quanh",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 17,
+    "group": "Hình ảnh",
+    "sub_group": "Vị trí ảnh",
+    "detail": "Căn giữa",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 18,
+    "group": "Hình ảnh",
+    "sub_group": "Chú thích ảnh",
+    "detail": "- Có chú thích ảnh <70 ký tự dưới mỗi hình ảnh, mô tả rõ và dễ hiểu nội dung hình ảnh\n- Có chứa từ khóa chính/ từ khóa phụ/ từ khóa LSI\n- In nghiêng chú thích ảnh",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 19,
+    "group": "Hình ảnh",
+    "sub_group": "Định vị thương hiệu",
+    "detail": "Chèn Logo với những ảnh thuộc bản quyền của doanh nghiệp",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 20,
+    "group": "Hình ảnh",
+    "sub_group": "Định vị thương hiệu",
+    "detail": "Sử dụng ảnh có màu sắc theo tone màu thương hiệu",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 21,
+    "group": "Hình ảnh",
+    "sub_group": "Định vị thương hiệu",
+    "detail": "Nhân vật đúng tệp khách hàng mục tiêu của thương hiệu",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 22,
+    "group": "Hình ảnh",
+    "sub_group": "Định vị thương hiệu",
+    "detail": "Ưu tiên sử dụng hình ảnh, video nguyên bản (do chính tổ chức chụp/quay) thay vì ảnh stock để minh họa cho quy trình, sản phẩm hoặc kết quả.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 23,
+    "group": "Người dùng",
+    "sub_group": "Câu ngắn",
+    "detail": "Câu văn dài 20 - 30 từ (khoảng 1.5 dòng), đặt dấu câu ngắt nghỉ phù hợp",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 24,
+    "group": "Người dùng",
+    "sub_group": "Đoạn ngắn",
+    "detail": "Đoạn văn dài 60 - 80 từ (khoảng 3 - 4 dòng, tối đa 5 dòng)",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 25,
+    "group": "Người dùng",
+    "sub_group": "Sắp xếp thông tin",
+    "detail": "Sắp xếp thông tin theo mô hình kim tự tháp ngược và mô hình AIDA\nĐặt Content quan trọng lên đầu bài viết",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 26,
+    "group": "Người dùng",
+    "sub_group": "Câu dẫn",
+    "detail": "Có đoạn văn dẫn dắt ở sau các Heading 2, 3, 4",
+    "apply_seo": true,
+    "apply_aio": false
+  },
+  {
+    "stt": 27,
+    "group": "Người dùng",
+    "sub_group": "Tính cá nhân hoá",
+    "detail": "Nội dung phải phù hợp với đối tượng độc giả của bài viết, không viết chung chung",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 28,
+    "group": "Người dùng",
+    "sub_group": "Tính độc nhất",
+    "detail": "Đảm bảo bài viết có nội dung mới, độc đáo hơn so với top 10",
+    "apply_seo": true,
+    "apply_aio": false
+  },
+  {
+    "stt": 29,
+    "group": "UL - LI",
+    "sub_group": "Trình bày nội dung",
+    "detail": "Đa dạng cách trình bày nội dung: Sử dụng bullet, bảng biểu,...",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 30,
+    "group": "UL - LI",
+    "sub_group": "Định dạng văn bản",
+    "detail": "Sử dụng đa dạng định dạng văn bản: In đậm, in nghiêng, kẻ bảng,...",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 31,
+    "group": "UL - LI",
+    "sub_group": "Media",
+    "detail": "Đa dạng hình ảnh, video, inforgaphic,...",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 32,
+    "group": "UL - LI",
+    "sub_group": "Khái quát đầu đoạn",
+    "detail": "Khái quát câu đầu đoạn: Định hướng nội dung cho cả đoạn để người đọc nắm bắt ý nhanh nhất",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 33,
+    "group": "E-E-A-T",
+    "sub_group": "Experience (Trải nghiệm)",
+    "detail": "Cung cấp hướng dẫn thực tế, thông tin thực tế, sử dụng ảnh chụp minh họa cụ thể",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 34,
+    "group": "E-E-A-T",
+    "sub_group": "Expertise (Chuyên môn)",
+    "detail": "Đi sâu vào phân tích chi tiết, các khía cạnh của vấn đề, thể hiện kiến thức chuyên môn. Nội dung đưa ra cần có lập luận logic, thuyết phục hoặc có căn cứ (NCKH, Báo cáo,...) để chứng minh",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 35,
+    "group": "E-E-A-T",
+    "sub_group": "Expertise (Chuyên môn)",
+    "detail": "Công bố Case study & Dữ liệu nội bộ với số liệu thực tế, nêu rõ bối cảnh, thách thức và kết quả đạt được",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 36,
+    "group": "E-E-A-T",
+    "sub_group": "Authoritativeness (Thẩm quyền)",
+    "detail": "Thể hiện danh tiếng, sự nổi bật, giải thưởng/ thành tích được công nhận trong ngành của thương hiệu (nếu có)",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 37,
+    "group": "E-E-A-T",
+    "sub_group": "Authoritativeness (Thẩm quyền)",
+    "detail": "Tích hợp các trích dẫn, nhận xét, đánh giá trực tiếp từ khách hàng hoặc người dùng cuối đã sử dụng sản phẩm/dịch vụ.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 38,
+    "group": "E-E-A-T",
+    "sub_group": "Trustworthiness (Độ tin cậy)",
+    "detail": "Cung cấp nguồn trích dẫn uy tín cho các dữ liệu, nghiên cứu được nhắc đến trong bài",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 39,
+    "group": "E-E-A-T",
+    "sub_group": "Trustworthiness (Độ tin cậy)",
+    "detail": "Dẫn link đến các nghiên cứu, báo cáo, bài viết của các chuyên gia hoặc tổ chức đầu ngành và ghi rõ nguồn của các số liệu, thống kê theo format Harvard.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 40,
+    "group": "Technical SEO",
+    "sub_group": "Meta description",
+    "detail": "Trả lời được insight (mong muốn thầm kín)",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 41,
+    "group": "Technical SEO",
+    "sub_group": "Meta description",
+    "detail": "Tóm tắt được nội dung bài viết",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 42,
+    "group": "Technical SEO",
+    "sub_group": "Meta description",
+    "detail": "Có chứa từ khoá chính/từ khoá phụ",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 43,
+    "group": "Technical SEO",
+    "sub_group": "Meta description",
+    "detail": "Độ dài <165 ký tự",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 44,
+    "group": "Technical SEO",
+    "sub_group": "Mật độ từ khoá",
+    "detail": "Từ khoá chính xuất hiện 1 - 3% trong bài",
+    "apply_seo": true,
+    "apply_aio": false
+  },
+  {
+    "stt": 45,
+    "group": "Technical SEO",
+    "sub_group": "Mật độ từ khoá",
+    "detail": "Từ khoá phụ xuất hiện ít nhất 1 lần trong bài",
+    "apply_seo": true,
+    "apply_aio": false
+  },
+  {
+    "stt": 46,
+    "group": "Technical SEO",
+    "sub_group": "Heading 1",
+    "detail": "Dưới 63 ký tự",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 47,
+    "group": "Technical SEO",
+    "sub_group": "Heading 1",
+    "detail": "Chứa từ khoá chính hoặc từ khoá phụ, ưu tiên đứng ở đầu tiêu đề",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 48,
+    "group": "Technical SEO",
+    "sub_group": "Heading 1",
+    "detail": "Nội dung tiêu đề thể hiện được ý định tìm kiếm/insight của người dùng",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 49,
+    "group": "Technical SEO",
+    "sub_group": "Heading 2, 3, 4",
+    "detail": "Có ít nhất 1 H2 có chứa từ khoá chính",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 50,
+    "group": "Technical SEO",
+    "sub_group": "Heading 2, 3, 4",
+    "detail": "Ưu tiên từ khoá chính/từ khoá phụ/LSI xuất hiện ở H3, H4",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 51,
+    "group": "Technical SEO",
+    "sub_group": "Mở bài\n(Sapo)",
+    "detail": "- Độ dài khoảng 3-5 dòng\n- Chứa từ khóa chính\n- Sơ lược được nội dung bài viết, giải quyết vấn đề gì cho người dùng",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 52,
+    "group": "Technical SEO",
+    "sub_group": "Kết bài",
+    "detail": "- Độ dài khoảng 3-5 dòng\n- Chứa từ khóa chính\n- Chèn thông tin để người dùng liên hệ",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 53,
+    "group": "Technical SEO",
+    "sub_group": "Internal Link",
+    "detail": "Có ít nhất 1 link về các bài viết liên quan cùng chủ đề",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 54,
+    "group": "Technical SEO",
+    "sub_group": "Internal Link",
+    "detail": "Link về các sản phẩm có nhắc tới trong bài",
+    "apply_seo": true,
+    "apply_aio": true
+  },
+  {
+    "stt": 55,
+    "group": "AI - Ranking",
+    "sub_group": "Đoạn văn",
+    "detail": "Mỗi đoạn văn cần trả lời hoàn chỉnh được một truy vấn duy nhất của người dùng.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 56,
+    "group": "AI - Readability",
+    "sub_group": "AI - Readability",
+    "detail": "Tránh viết câu mơ hồ, chung chung, không giải quyết được vấn đề cụ thể, không đóng góp thêm luận điểm cho chủ đề chính của đoạn.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 57,
+    "group": "AI - Readability",
+    "sub_group": "AI - Readability",
+    "detail": "Câu chủ đề của đoạn cần viết theo dạng bộ ba ngữ nghĩa (subject-predicate-object).",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 58,
+    "group": "AI - Readability",
+    "sub_group": "Bài viết",
+    "detail": "Bài viết cần chứa các câu viết theo dạng bộ ba ngữ nghĩa một cách tự nhiên.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 59,
+    "group": "AI - Ranking",
+    "sub_group": "AI - Ranking",
+    "detail": "Ưu tiên thêm FAQs vào bài viết (phụ thuộc vào truy vấn, Google Suggest, People Also Ask...)",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 60,
+    "group": "AI - Ranking",
+    "sub_group": "Cosine Similarity",
+    "detail": "Mỗi đoạn văn cần có tối thiểu 3 từ vựng cùng trường từ vựng với từ khoá chính của bài viết.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 61,
+    "group": "AI - Readability",
+    "sub_group": "TL-DR",
+    "detail": "Sử dụng tóm tắt bài viết trên đầu bài/Cuối bài với cấu trúc dạng bullet.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 62,
+    "group": "AI - Readability",
+    "sub_group": "Heading 2, 3, 4",
+    "detail": "Nên đặt heading 2, heading 3 là câu hỏi nếu có thể.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 63,
+    "group": "Information Gain",
+    "sub_group": "Fresh",
+    "detail": "Bài viết buộc phải có tối thiểu 3 nội dung mới liên quan chặt chẽ với chủ đề.",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 64,
+    "group": "Information Gain",
+    "sub_group": "Fresh",
+    "detail": "Có ít nhất 3 nội dung trong bài cần được trình bày theo cách MỚI - Khác biệt và tốt hơn top 10:\n- Dễ đọc hơn \n- Có góc nhìn mới hơn\n- Lập luận thuyết phục hơn (Có số liệu, dẫn nguồn)\n- Câu văn tối ưu cho AI đọc hơn\n- ...",
+    "apply_seo": false,
+    "apply_aio": true
+  },
+  {
+    "stt": 65,
+    "group": "Information Gain",
+    "sub_group": "Fresh",
+    "detail": "Cập nhật nội dung mới ít nhất 3 tháng 1 lần, tuỳ thuộc vào từ khoá.",
+    "apply_seo": false,
+    "apply_aio": true
+  }
+]
