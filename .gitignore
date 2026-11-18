@@ -9,11 +9,13 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# Node / Next.js
+# Node / Next.js / Electron Build Outputs
 node_modules/
 .next/
 out/
-build/
+dist/
+apps/desktop/web-out/
+apps/desktop/dist/
 *.tsbuildinfo
 
 # Environment & Secrets

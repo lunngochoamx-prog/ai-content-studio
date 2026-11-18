@@ -1054,6 +1054,23 @@ Trả về JSON hợp lệ gồm 3 trường: {"title": "...", "meta_description
   return [sys, usr];
 }
 
+async function smartJsonPost(
+  url: string,
+  headers: Record<string, string>,
+  bodyObj: any
+): Promise<any | null> {
+  const bridge = typeof window !== "undefined" ? (window as any).electronStudio : null;
+  const bodyStr = JSON.stringify(bodyObj);
+  if (bridge?.proxyFetch) {
+    const resp = await bridge.proxyFetch({ url, method: "POST", headers, body: bodyStr });
+    if (!resp?.ok) return null;
+    return JSON.parse(resp.text || "null");
+  }
+  const res = await fetch(url, { method: "POST", headers, body: bodyStr });
+  if (!res.ok) return null;
+  return res.json();
+}
+
 async function callBrowserRemoteLlm(params: {
   provider: string;
   base_url: string;
@@ -1064,84 +1081,73 @@ async function callBrowserRemoteLlm(params: {
 }): Promise<string | null> {
   const { provider, base_url, api_key, model, system_prompt, user_prompt } = params;
   const cleanBase = (base_url || "").replace(/\/+$/, "");
+  const isDesktop = typeof window !== "undefined" && Boolean((window as any).electronStudio?.isDesktop);
   try {
     if (provider === "gemini") {
       if (!api_key) return null;
       const m = model || "gemini-2.5-flash";
-      const res = await fetch(`${cleanBase}/models/${m}:generateContent?key=${encodeURIComponent(api_key)}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+      const d = await smartJsonPost(
+        `${cleanBase}/models/${m}:generateContent?key=${encodeURIComponent(api_key)}`,
+        { "Content-Type": "application/json" },
+        {
           systemInstruction: { parts: [{ text: system_prompt }] },
           contents: [{ role: "user", parts: [{ text: user_prompt }] }],
           generationConfig: { temperature: 0.7 },
-        }),
-      });
-      if (!res.ok) return null;
-      const d = await res.json();
+        }
+      );
       return d?.candidates?.[0]?.content?.parts?.[0]?.text || null;
     }
 
     if (provider === "claude") {
       if (!api_key) return null;
-      const res = await fetch(`${cleanBase}/messages`, {
-        method: "POST",
-        headers: {
+      const d = await smartJsonPost(
+        `${cleanBase}/messages`,
+        {
           "x-api-key": api_key,
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true",
           "content-type": "application/json",
         },
-        body: JSON.stringify({
+        {
           model: model || "claude-sonnet-4-20250514",
           max_tokens: 4096,
           system: system_prompt,
           messages: [{ role: "user", content: user_prompt }],
-        }),
-      });
-      if (!res.ok) return null;
-      const d = await res.json();
+        }
+      );
       return d?.content?.[0]?.text || null;
     }
 
     if (provider === "ollama") {
-      const res = await fetch(`${cleanBase}/api/chat`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+      const d = await smartJsonPost(
+        `${cleanBase}/api/chat`,
+        { "Content-Type": "application/json" },
+        {
           model: model || "qwen2.5:7b",
           stream: false,
           messages: [
             { role: "system", content: system_prompt },
             { role: "user", content: user_prompt },
           ],
-        }),
-      });
-      if (!res.ok) return null;
-      const d = await res.json();
+        }
+      );
       return d?.message?.content || null;
     }
 
     if (["openai", "deepseek", "openrouter"].includes(provider) && !api_key) return null;
-    if (provider === "free_9router" && (cleanBase.includes("127.0.0.1") || cleanBase.includes("localhost"))) {
+    if (!isDesktop && provider === "free_9router" && (cleanBase.includes("127.0.0.1") || cleanBase.includes("localhost"))) {
       return null;
     }
     const headers: Record<string, string> = { "Content-Type": "application/json" };
     if (api_key) headers["Authorization"] = `Bearer ${api_key}`;
-    const res = await fetch(`${cleanBase}/chat/completions`, {
-      method: "POST",
-      headers,
-      body: JSON.stringify({
-        model: model || "auto",
-        temperature: 0.72,
-        messages: [
-          { role: "system", content: system_prompt },
-          { role: "user", content: user_prompt },
-        ],
-      }),
+    const d = await smartJsonPost(`${cleanBase}/chat/completions`, headers, {
+      model: model || "auto",
+      temperature: 0.72,
+      messages: [
+        { role: "system", content: system_prompt },
+        { role: "user", content: user_prompt },
+      ],
     });
-    if (!res.ok) return null;
-    const d = await res.json();
     return d?.choices?.[0]?.message?.content || null;
   } catch {
     return null;
@@ -1244,6 +1250,15 @@ function renderCanvasWebpImage(params: {
 function loadOrCreateDb(): any {
   if (typeof window === "undefined") return null;
   try {
+    const bridge = (window as any).electronStudio;
+    if (bridge?.readDbSync) {
+      const diskRaw = bridge.readDbSync();
+      if (diskRaw) {
+        const parsed = JSON.parse(diskRaw);
+        localStorage.setItem(STORAGE_KEY, diskRaw);
+        return parsed;
+      }
+    }
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw) return JSON.parse(raw);
   } catch {
@@ -1531,13 +1546,18 @@ function loadOrCreateDb(): any {
     },
   };
 
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(initialDb));
+  saveDb(initialDb);
   return initialDb;
 }
 
 function saveDb(db: any) {
   if (typeof window !== "undefined") {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+    const serialized = JSON.stringify(db);
+    localStorage.setItem(STORAGE_KEY, serialized);
+    const bridge = (window as any).electronStudio;
+    if (bridge?.writeDb) {
+      bridge.writeDb(serialized);
+    }
   }
 }
 

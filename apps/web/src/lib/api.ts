@@ -1,13 +1,17 @@
 /**
  * Hybrid API Client:
- * 1. Khi chạy cùng Backend Python FastAPI (Local / Docker / Render / Railway hoặc cấu hình NEXT_PUBLIC_API_URL): gọi trực tiếp REST API + PostgreSQL.
- * 2. Khi xuất bản Online tĩnh trên GitHub Pages (github.io): tự động kích hoạt Standalone Cloud-Edge Engine ngay trên trình duyệt.
- * 3. Hỗ trợ Browser-to-Ollama Local Bridge trực tiếp tới máy cá nhân người dùng.
+ * 1. Desktop App (Electron Setup .exe / .dmg / .AppImage): lưu trữ trực tiếp trên ổ cứng máy tính & gọi AI/Ollama không bị chặn CORS qua IPC.
+ * 2. Web Online tĩnh (GitHub Pages): kích hoạt Standalone Cloud-Edge Engine trên trình duyệt.
+ * 3. Full-Stack Server (Local / Docker / Render / Railway): kết nối trực tiếp Python FastAPI + PostgreSQL.
  */
 
 import { handleStandaloneRequest } from "./standaloneEngine";
 
 let backendProbePromise: Promise<boolean> | null = null;
+
+function getElectronBridge(): any {
+  return typeof window !== "undefined" ? (window as any).electronStudio : null;
+}
 
 function getConfiguredApiBase(): string {
   if (typeof window !== "undefined") {
@@ -20,7 +24,12 @@ function getConfiguredApiBase(): string {
 async function isBackendReachable(): Promise<boolean> {
   if (typeof window === "undefined") return false;
   const customBase = getConfiguredApiBase();
-  if (!customBase && window.location.hostname.endsWith("github.io")) {
+  const isStandaloneHost =
+    Boolean(getElectronBridge()?.isDesktop) ||
+    (window.location.protocol !== "http:" && window.location.protocol !== "https:") ||
+    window.location.hostname.endsWith("github.io");
+
+  if (!customBase && isStandaloneHost) {
     return false;
   }
   if (!backendProbePromise) {
@@ -30,7 +39,11 @@ async function isBackendReachable(): Promise<boolean> {
         const timer = setTimeout(() => controller.abort(), 1800);
         const res = await fetch(`${customBase}/api/health`, { signal: controller.signal });
         clearTimeout(timer);
-        return res.ok;
+        if (!res.ok) return false;
+        const ct = res.headers.get("content-type") || "";
+        if (!ct.includes("application/json")) return false;
+        const data = await res.json();
+        return data?.status === "ok";
       } catch {
         return false;
       }
@@ -66,8 +79,10 @@ export async function apiFetch<T = any>(path: string, options: RequestInit = {})
     }
     return (await res.text()) as unknown as T;
   } catch (err) {
-    // Dự phòng mượt sang Standalone Engine nếu mất kết nối tạm thời
-    if (typeof window !== "undefined" && window.location.hostname.endsWith("github.io")) {
+    if (
+      typeof window !== "undefined" &&
+      (window.location.hostname.endsWith("github.io") || Boolean(getElectronBridge()?.isDesktop))
+    ) {
       return handleStandaloneRequest(path, options) as Promise<T>;
     }
     throw err;
@@ -90,6 +105,13 @@ export async function downloadApiResource(path: string, filename: string, mimeTy
 
 export async function fetchLocalOllamaModels(baseUrl = "http://localhost:11434"): Promise<string[]> {
   const clean = baseUrl.replace(/\/+$/, "");
+  const bridge = getElectronBridge();
+  if (bridge?.proxyFetch) {
+    const resp = await bridge.proxyFetch({ url: `${clean}/api/tags`, method: "GET" });
+    if (!resp?.ok) throw new Error("Không kết nối được Ollama Local trên máy này.");
+    const data = JSON.parse(resp.text || "{}");
+    return (data.models || []).map((m: { name: string }) => m.name);
+  }
   const res = await fetch(`${clean}/api/tags`, { method: "GET" });
   if (!res.ok) {
     throw new Error("Không kết nối được Ollama Local trên trình duyệt.");
@@ -105,17 +127,30 @@ export async function generateViaLocalOllama(
   userPrompt: string
 ): Promise<string> {
   const clean = baseUrl.replace(/\/+$/, "");
+  const payload = JSON.stringify({
+    model: model || "qwen2.5:7b",
+    stream: false,
+    messages: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ],
+  });
+  const bridge = getElectronBridge();
+  if (bridge?.proxyFetch) {
+    const resp = await bridge.proxyFetch({
+      url: `${clean}/api/chat`,
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: payload,
+    });
+    if (!resp?.ok) throw new Error(`Ollama trả về mã lỗi ${resp?.status || 500}`);
+    const data = JSON.parse(resp.text || "{}");
+    return data?.message?.content || "";
+  }
   const res = await fetch(`${clean}/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: model || "qwen2.5:7b",
-      stream: false,
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt },
-      ],
-    }),
+    body: payload,
   });
   if (!res.ok) {
     throw new Error(`Ollama trả về mã lỗi ${res.status}`);

@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 
 const isGithubPages = process.env.GITHUB_PAGES === "true";
-const repoBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isGithubPages ? "/ai-content-studio" : "");
+const isDesktopExport = process.env.DESKTOP_EXPORT === "true";
+const isStaticExport = isGithubPages || isDesktopExport;
+
+const repoBasePath = isDesktopExport
+  ? ""
+  : process.env.NEXT_PUBLIC_BASE_PATH ?? (isGithubPages ? "/ai-content-studio" : "");
 const backendOrigin = process.env.API_BACKEND_URL || "http://127.0.0.1:8000";
 
-const nextConfig: NextConfig = isGithubPages
+const nextConfig: NextConfig = isStaticExport
   ? {
       output: "export",
       basePath: repoBasePath,

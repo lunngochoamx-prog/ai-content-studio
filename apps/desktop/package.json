@@ -1,0 +1,86 @@
+{
+  "name": "ai-content-studio-desktop",
+  "productName": "AI Content Studio",
+  "version": "1.0.0",
+  "description": "Ứng dụng viết content đa ngành nghề, chấm điểm 65 tiêu chí SEO/GEO Google, Bộ não thứ 2 & học phong cách cá nhân",
+  "author": "AI Content Studio <358115095+lunngochoamx-prog@users.noreply.github.com>",
+  "homepage": "https://lunngochoamx-prog.github.io/ai-content-studio/",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win --x64 --publish never",
+    "dist:mac": "electron-builder --mac --publish never",
+    "dist:linux": "electron-builder --linux --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "^34.3.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "vn.contentstudio.desktop",
+    "productName": "AI Content Studio",
+    "copyright": "Copyright © 2026 AI Content Studio",
+    "compression": "normal",
+    "files": [
+      "main.js",
+      "preload.js",
+      "web-out/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "AI Content Studio",
+      "artifactName": "AI-Content-Studio-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "AI-Content-Studio-Portable-${version}.${ext}"
+    },
+    "mac": {
+      "icon": "assets/icon.png",
+      "category": "public.app-category.productivity",
+      "identity": null,
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["arm64", "x64"]
+        }
+      ],
+      "artifactName": "AI-Content-Studio-macOS-${arch}-${version}.${ext}"
+    },
+    "linux": {
+      "icon": "assets/icon.png",
+      "category": "Office",
+      "maintainer": "AI Content Studio <358115095+lunngochoamx-prog@users.noreply.github.com>",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": ["x64"]
+        },
+        {
+          "target": "deb",
+          "arch": ["x64"]
+        }
+      ],
+      "artifactName": "AI-Content-Studio-Linux-${arch}-${version}.${ext}"
+    }
+  }
+}
